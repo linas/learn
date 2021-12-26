@@ -166,11 +166,26 @@
 					0
 					WLIST)))
 
+		(define (make-merged-section CLS DJ)
+			(define mrg	(LLOBJ 'make-pair CLS DJ))
+			(if (not MRG-CON) mrg
+				(let ((flat (LLOBJ 'flatten CLS mrg)))
+					(if flat flat mrg)))
+		)
+
 		; Merge the particular DJ, if it is shared by the majority,
 		; or if the count on it is below the noise floor.
 		; CLUST is identical to cls, defined below. Return zero if
 		; there is no merge.
 		(define (clique LLOBJ CLUST SECT ACC-FUN)
+			(define DJ (LLOBJ 'right-element SECT))
+
+			(if (or (<= (LLOBJ 'get-count SECT) NOISE)
+					(vote-to-accept? DJ))
+				(ACC-FUN LLOBJ (make-merged-section CLUST DJ) SECT 1.0)
+				0))
+
+		(define (claque LLOBJ CLUST SECT ACC-FUN)
 			(define DJ (LLOBJ 'right-element SECT))
 
 			(if (or (<= (LLOBJ 'get-count SECT) NOISE)
@@ -185,11 +200,13 @@
 			(lambda (WRD) (assign-to-cluster LLOBJ cls WRD clique))
 			WLIST)
 
+#! ==========
 		(when MRG-CON
 			(for-each
-				(lambda (WRD) (merge-connectors LLOBJ cls WRD clique))
+				(lambda (WRD) (merge-connectors LLOBJ cls WRD claque))
 				WLIST)
 		)
+=======!#
 
 		; Cleanup after merging.
 		; The LLOBJ is assumed to be just a stars object, and so the
