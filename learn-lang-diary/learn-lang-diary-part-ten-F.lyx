@@ -11793,8 +11793,14 @@ just all symbols
 .
  And clearly,
  LLM's have scaled a representational complexity past an important threshold.
- There are several questions.
- A very popular one is 
+\end_layout
+
+\begin_layout Standard
+There are three questions.
+\end_layout
+
+\begin_layout Itemize
+A very popular one is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11802,7 +11808,11 @@ how can I staple symbolic logic onto an LLM?
 \begin_inset Quotes eld
 \end_inset
 
- An unrelated question is 
+ 
+\end_layout
+
+\begin_layout Itemize
+An unrelated question is 
 \begin_inset Quotes eld
 \end_inset
 
@@ -11811,6 +11821,24 @@ what does it take to reproduce LLM–like function using pure AtomSpace symbolic
 \end_inset
 
 
+\end_layout
+
+\begin_layout Itemize
+The third one is 
+\begin_inset Quotes eld
+\end_inset
+
+how can I use an LLM as a user–interface to my software system X
+\begin_inset Quotes erd
+\end_inset
+
+,
+ which only gets confusing when X is the AtomSpace.
+ (or some symbolic system in general).
+\end_layout
+
+\begin_layout Standard
+So...
 \end_layout
 
 \begin_layout Section*
