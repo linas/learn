@@ -12237,142 +12237,143 @@ And yet,
 \end_layout
 
 \begin_layout Standard
-====
-\end_layout
-
-\begin_layout Standard
 I have several other overlapping projects that tie into the above.
 \end_layout
 
-\begin_layout Standard
-* I'm a bit stalled with the sheaf representation.
- It's easy when it'slink grammar;
+\begin_layout Itemize
+I'm a bit stalled with the sheaf representation.
+ It's easy when it's link grammar;
  it's hard when it's generic atomese.
- It's annoyinglyverbose.
+ It's annoyingly verbose.
  Assembling jigsaws is easy to say but hard to do.
 \end_layout
 
-\begin_layout Standard
-* The plan to rewrite the counting code to be truly generic remainsstalled.
- I did create much or most of the needed infrastructure as"pure Atomese" demos (in various example files) that can count(increment counts),
+\begin_layout Itemize
+The plan to rewrite the counting code to be truly generic remains stalled.
+ I did create much or most of the needed infrastructure as "pure Atomese" demos (in various example files) that can count(increment counts),
  compute MI,
  cosines,
  sort arrays,
- but have gottenstuck with the file system crawler.
+ but have gotten stuck with the file system crawler.
 \end_layout
 
-\begin_layout Standard
-* The problem with the file-system crawler is this.
- I want to get awayfrom batch processing;
- the pie-in-the-sky idea is that the crawler canwalk the file system and find what is there,
- process this or thatfile,
+\begin_layout Itemize
+The problem with the file–system crawler is this.
+ I want to get away from batch processing;
+ the pie–in–the–sky idea is that the crawler can walk the file system and find what is there,
+ process this or tha tfile,
  move on to the next one,
  or maybe return for a second look,reprocess again,
- but this time with the MST parser instead of thetoken counter,
+ but this time with the MST parser instead of the token counter,
  etc.
  Wonderful.
  Great.
- And I do have an Atomese fileand file-system object.
+ And I do have an Atomese file and file–system object.
  I have,
  in fact,
- created a "world model" of an"external" file system,
- it now exists as a graph with half-a-millionAtoms in my AtomSpace.
+ created a "world model" of an "external" file system,
+ it now exists as a graph with half–a–million Atoms in my AtomSpace.
  Great.
  Now what?
- How do I "perceive" thatstructure?
+ How do I "perceive" that structure?
  How do I "move" through it?
  Or rather,
- out of what thin airdoes the agent appear,
+ out of what thin air does the agent appear,
  that knows how to walk a file system?
- Ofcourse,
+ Of course,
  it has to bootstrap,
  I guess.
 \end_layout
 
-\begin_layout Standard
-* My (file-system-walking) agent is written in Atomese.
- (I also have a"counting agent" and a prototype cosine-dot-product agent,
- and someothers:
+\begin_layout Itemize
+My (file–system–walking) agent is written in Atomese.
+ (I also have a "counting agent" and a prototype cosine–dot–product agent,
+ and some others:
  they're being bootstrapped.)
 \end_layout
 
-\begin_layout Standard
-* "Pure Atomese",
+\begin_layout Itemize
+"Pure Atomese",
  so it can be mutated.
- But this hits two stumblingblocks:
- there is no sheaf-theoretical,
- jigsaw assembly description ofthese agents.
+ But this hits two stumbling blocks:
+ there is no sheaf–theoretical,
+ jigsaw assembly description of these agents.
  Yes,
  they are "pure atomese",
- but they are not yetcomposed of jigsaws.
+ but they are not yet composed of jigsaws.
  In particular,
- I am not sure how to connect thedots:
- to move from jigsaws (which are effectively proof-theoreticinference rules and axioms) jump through currey-howard,
- and arrive atan algorithm that can compute e.g.
- the dot-product of two vectors.
+ I am not sure how to connect the dots:
+ to move from jigsaws (which are effectively proof-theoretic inference rules and axioms) jump through Curry–Howard,
+ and arrive at an algorithm that can compute e.g.
+ the dot–product of two vectors.
 \end_layout
 
-\begin_layout Standard
-* So,
+\begin_layout Itemize
+So,
  again,
- you can see why I am not all that interested in"parallelizing the AtomSpace";
- I am interested in providing asheaf-theoretic description of a dot product.
+ you can see why I am not all that interested in "parallelizing the AtomSpace";
+ I am interested in providing a sheaf–theoretic description of a dot product.
  Sheaf theoretic,
- sothat it can be assembled,
- dis-assembled,
+ so that it can be assembled,
+ dis–assembled,
  reassembled,
  mutated,
- andmoved about.
- *If* I could do that,
- then maybe I would haveinfrastructure capable of bootstrapping into more complex agenticsystems.
+ and moved about.
+ *
+\emph on
+If
+\emph default
+* I could do that,
+ then maybe I would have infrastructure capable of bootstrapping into more complex agentic systems.
  But this remains just barely within reach.
 \end_layout
 
-\begin_layout Standard
-* Thus:
- there's a chicken-and-egg problem.
- I have filesystem data inthe Atomspace.
+\begin_layout Itemize
+Thus:
+ there's a chicken–and–egg problem.
+ I have filesystem data in the Atomspace.
  I can ingest it.
  But I can't yet perceive it,
- because Ido not have a perceptual mechanism for it.
+ because I do not have a perceptual mechanism for it.
 \end_layout
 
-\begin_layout Standard
-* I do have strong positive results from 3 or 4 or 5 years ago now (ormore ..
+\begin_layout Itemize
+I do have strong positive results from 3 or 4 or 5 years ago now (or more ..
  lord how time flies) The basic learn algo works great,
- itreproduces the old Word2Vec style results,
+ it reproduces the old Word2Vec style results,
  or GloVE style,
- or evensimple basic transformer-ish results;
+ or even simple basic transformer–ish results;
  it works.
  It's fine.
- It's notperfect,
+ It's not perfect,
  but it's OK,
  it's good enough.
- And I know exactly how togeneralize it for sound,
+ And I know exactly how to generalize it for sound,
  video,
- I think I know how to generalize it toabstract domains,
+ I think I know how to generalize it to abstract domains,
  like electronic circuit diagrams ...
  and maybe,
- justmaybe,
+ just maybe,
  to ...
  file system crawl results.
- But I just don't have thegeneric framework for this.
+ But I just don't have the generic framework for this.
 \end_layout
 
-\begin_layout Standard
-* Last summer,
- I talked to you about being able to perceive"mathematical axioms" and "structures" -- that's still the case,
- stillthe plan.
+\begin_layout Itemize
+Last summer,
+ I talked to you about being able to perceive"mathematical axioms" and "structures" —
+ that's still the case,
+ still the plan.
  The quest to "perceive file systems",
- and "perceiveelectronic circuits" and "perceive sound,
- photos" all of these beingspecial cases.
+ and "perceive electronic circuits" and "perceive sound,
+ photos" all of these being special cases.
  I'm just stuck trying to bootstrap it.
 \end_layout
 
 \begin_layout Standard
 And using Claude to build that framework is like ...
- dragging a muleladen with bags of salt through a rapidly flowing creek while cajolinga 5 year old toddler throwing a temper tantrum.
- So I'm pretty wellhosed on my research project.
+ dragging a mule laden with bags of salt through a rapidly flowing creek while cajoling a 5 year old toddler throwing a temper tantrum.
+ So I'm pretty well hosed on my research project.
 \end_layout
 
 \begin_layout Standard
@@ -12380,9 +12381,9 @@ So now you see where I am trying to go with this.
 \end_layout
 
 \begin_layout Standard
-I'm re-reading,
- proof-reading:
- L-systems are very highlyparallelizable:
+I'm re–reading,
+ proof–reading:
+ L–systems are very highly parallelizable:
  they are,
  by definition,
  parallel.
