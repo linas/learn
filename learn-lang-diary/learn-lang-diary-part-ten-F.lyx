@@ -11941,84 +11941,45 @@ It is also necessary to "perceive" the inside,
 * Some of the algos access "internal data" directly;
  e.g.
  explicit c++
-\end_layout
-
-\begin_layout Standard
 code will manipulate,
  mutate,
  control c++ structures "in here"
-\end_layout
-
-\begin_layout Standard
 (inside).
  Other algos are "indirect":
  for example,
  if I write an algo
-\end_layout
-
-\begin_layout Standard
 in Atomese,
  it does not compile into x86 assembly or java byte code;
-\end_layout
-
-\begin_layout Standard
 it controls AtomSpace contents indirectly.
  It applies transformations
-\end_layout
-
-\begin_layout Standard
 that alter AtomSpace contents.
 \end_layout
 
 \begin_layout Standard
 * The GPU challenge is an interesting middle ground:
  the GPU's are not
-\end_layout
-
-\begin_layout Standard
 some external world that can be acted on,
  but they are also not "in
-\end_layout
-
-\begin_layout Standard
 here".
  So then,
  in what sense can a GPU be "perceived",
  and how can it
-\end_layout
-
-\begin_layout Standard
 be "manipulated and controlled"?
  That is,
  how can an algo,
  an Atomese
-\end_layout
-
-\begin_layout Standard
 algo,
  perceive what a GPU is,
  and how can an Atomese algo manipulate a
-\end_layout
-
-\begin_layout Standard
 GPU to "do something useful"?
  How can GPU's be described,
  in
-\end_layout
-
-\begin_layout Standard
 Atomese,
  and how can an Atomese algo leap from running on the CPU to
-\end_layout
-
-\begin_layout Standard
 the GPU?
  And back,
  depending on bus congestion?
  Depending on
-\end_layout
-
-\begin_layout Standard
 performance metrics?
 \end_layout
 
@@ -12026,172 +11987,88 @@ performance metrics?
 * And again,
  this gets very recursive:
  How can performance metrics be
-\end_layout
-
-\begin_layout Standard
 perceived,
  interpreted,
  understood?
  How can one blob of Atomese
-\end_layout
-
-\begin_layout Standard
 examine performance metrics,
  and determine what sort of abstract
-\end_layout
-
-\begin_layout Standard
 rewrites need to be applied to move another blob of Atomese from CPU
-\end_layout
-
-\begin_layout Standard
 to GPU and back?
  To "optimize" it?
 \end_layout
 
 \begin_layout Standard
 * The last bullet has two distinct and diametrically opposed answers
-\end_layout
-
-\begin_layout Standard
 or flavors.
  The first answer is extremely conventional:
  do
-\end_layout
-
-\begin_layout Standard
 1980's-2010's style software engineering:
  examine,
  invent,
  write
-\end_layout
-
-\begin_layout Standard
 specs,
  write code,
  unit tests.
  Better yet,
  google it and download
-\end_layout
-
-\begin_layout Standard
 existing libraries and frameworks that already do exactly this.
  Wire
-\end_layout
-
-\begin_layout Standard
 them up as needed.
  Do NOT reinvent the wheel.
  Dust off hands,
  clap,
-\end_layout
-
-\begin_layout Standard
 problem solved.
 \end_layout
 
 \begin_layout Standard
 * The second answer is to double down on the conception of Atomese,
-\end_layout
-
-\begin_layout Standard
 but then look at it sharply,
  critically.
  The AST's of Atomese are a de
-\end_layout
-
-\begin_layout Standard
 facto attempt to invent an abstract assembly language,
  perhaps with an
-\end_layout
-
-\begin_layout Standard
 eye towards re-inventing the conception of computing:
  what it means to
-\end_layout
-
-\begin_layout Standard
 compute.
  (so,
  wandering into crazy-land,
  as it were.) The critique is
-\end_layout
-
-\begin_layout Standard
 that Atomese snippets,
  the AST's are actually really rather small
-\end_layout
-
-\begin_layout Standard
 things,
  "molecular" in size,
  just not big enough,
  capable enough to
-\end_layout
-
-\begin_layout Standard
 perform the self-modification imagined two bullets earlier:
  to
-\end_layout
-
-\begin_layout Standard
 rewrite,
  jump,
  morph,
  move between CPU and GPU on an as-needed basis.
-\end_layout
-
-\begin_layout Standard
 By analogy,
  biological viruses can jump and move;
  but they are made of
-\end_layout
-
-\begin_layout Standard
 lots and lots of molecules;
  my Atomese expressions are much much
-\end_layout
-
-\begin_layout Standard
 smaller.
 \end_layout
 
 \begin_layout Standard
 * Perhaps there is some minimal size,
  some minimal complexity required
-\end_layout
-
-\begin_layout Standard
 for a thing to be "living",
  or at least to motor around.
  Maybe there
-\end_layout
-
-\begin_layout Standard
 is a phase transition (in the sense of statistical mechanics,
-\end_layout
-
-\begin_layout Standard
 thermodynamics) and below this phase transition,
  it's just dumb rocks
-\end_layout
-
-\begin_layout Standard
 and machines,
  and above which "things come alive":
  they have enough
-\end_layout
-
-\begin_layout Standard
 complexity to become autonomous.
  One can even get sophisticated here,
-\end_layout
-
-\begin_layout Standard
 and mumble about "self-organized criticality" at the "edge of chaos"
-\end_layout
-
-\begin_layout Standard
 -- very hip,
  fad ideas from the 1980's.
 \end_layout
@@ -12199,92 +12076,47 @@ and mumble about "self-organized criticality" at the "edge of chaos"
 \begin_layout Standard
 * Let me take a moment to sketch that territory,
  since it is not very
-\end_layout
-
-\begin_layout Standard
 familiar to mainstream comp sci.
  An early canonical example was
-\end_layout
-
-\begin_layout Standard
 "critical opalescence" at the triple-point of water:
  the temp &
-\end_layout
-
-\begin_layout Standard
 pressure where water liquid,
  gas and ice co-exist at all length
-\end_layout
-
-\begin_layout Standard
 scales,
  which is why it looks pearly,
  when you see it.
  It's a
-\end_layout
-
-\begin_layout Standard
 second-order phase transition.
  Phil Anderson had a lot to say.
  Another
-\end_layout
-
-\begin_layout Standard
 physicist,
  Per Bak,
  built a simplified model:
  the "abelian sand pile":
-\end_layout
-
-\begin_layout Standard
 drop grains of sand onto a mound,
  and it gets taller and taller,
  and
-\end_layout
-
-\begin_layout Standard
 then collapses,
  avalanches.
  The avalanches are of all sizes:
  many
-\end_layout
-
-\begin_layout Standard
 small ones,
  a few medium,
  and rarely,
  big ones.
  This is 1/f noise,
  or
-\end_layout
-
-\begin_layout Standard
 "Zipfian distribution",
  observed freakin absolutely everywhere in
-\end_layout
-
-\begin_layout Standard
 nature,
  if you cared to look,
  and not just in those electronic
-\end_layout
-
-\begin_layout Standard
 circuits that Benoit Mandelbrot was tasked to examine.
  Per Bak went on
-\end_layout
-
-\begin_layout Standard
 to also create precise mathematical models of various biological
-\end_layout
-
-\begin_layout Standard
 ecosystems.
  Unfortunately,
  he made the mistake of publicly calling
-\end_layout
-
-\begin_layout Standard
 biologists "stupid",
  which did not help his cause.
 \end_layout
@@ -12292,38 +12124,20 @@ biologists "stupid",
 \begin_layout Standard
 * There is another branch:
  the amateur "a-life" (artificial life)
-\end_layout
-
-\begin_layout Standard
 movement of the 1980s,
  inspired by John Conway's "game of life".
-\end_layout
-
-\begin_layout Standard
 Basically,
  you plunk down a bunch of cellular automata with some kind
-\end_layout
-
-\begin_layout Standard
 of small-ish set of state transition rules,
  and then try to evolve
-\end_layout
-
-\begin_layout Standard
 them.
  Genetically,
  by applying point mutations to the state transition
-\end_layout
-
-\begin_layout Standard
 rules,
  or by doing cross-over.
  Evolution,
  however,
  is stunningly slow;
-\end_layout
-
-\begin_layout Standard
 you hit the wall of Kolmogorov complexity,
  then stop.
 \end_layout
@@ -12331,82 +12145,37 @@ you hit the wall of Kolmogorov complexity,
 \begin_layout Standard
 * You can plink down the cellular automata on a square grid,
  or you
-\end_layout
-
-\begin_layout Standard
 can allow them to grow freely,
  without a grid;
  they form trees.
-\end_layout
-
-\begin_layout Standard
 Formally,
  "Lindenmeyer systems" or "L-systems" -- these form not only
-\end_layout
-
-\begin_layout Standard
 trees,
  but minor rule variations give bushes that grow from the tips,
-\end_layout
-
-\begin_layout Standard
 bushes that grow from the base,
  flowers that bloom from the bottom up,
-\end_layout
-
-\begin_layout Standard
 bloom from the top down,
  form leaf shapes wider at the top (gingko),
-\end_layout
-
-\begin_layout Standard
 wider at the bottom (birch/aspen),
  pointy (elm),
  many-pointed (maple),
-\end_layout
-
-\begin_layout Standard
 many-pointed-round (oak).
  Prusinkiewicz invented this field,
  called
-\end_layout
-
-\begin_layout Standard
 "algorithmic botany" and I have no clue why he is not famous.
  I am in
-\end_layout
-
-\begin_layout Standard
 awe.
  His achievement was that one could take *extremely stunningly
-\end_layout
-
-\begin_layout Standard
 simple* purely-digital cellular automata,
  and recover vast tracts of
-\end_layout
-
-\begin_layout Standard
 botany.
  If you then couple the purely digital L-systems to a
-\end_layout
-
-\begin_layout Standard
 continuous-valued differential equation (the reaction-diffusion
-\end_layout
-
-\begin_layout Standard
 equation) you explain an even broader tract of botany.
  And the analogy
-\end_layout
-
-\begin_layout Standard
 is obvious:
  the cellular automata are DNA,
  and the reaction-diffusion
-\end_layout
-
-\begin_layout Standard
 diffeq are the proteins/enzymes.
  Awesome stuff.
 \end_layout
