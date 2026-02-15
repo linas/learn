@@ -12021,208 +12021,219 @@ The second answer is to double down on the conception of Atomese,
  biological viruses can jump and move;
  but they are made of lots and lots of molecules;
  my Atomese expressions are much much smaller.
+ 
 \end_layout
 
-\begin_layout Standard
-* Perhaps there is some minimal size,
- some minimal complexity requiredfor a thing to be "living",
+\begin_layout Itemize
+Perhaps there is some minimal size,
+ some minimal complexity required for a thing to be "living",
  or at least to motor around.
- Maybe thereis a phase transition (in the sense of statistical mechanics,thermodynamics) and below this phase transition,
- it's just dumb rocksand machines,
+ Maybe there is a phase transition (in the sense of statistical mechanics,thermodynamics) and below this phase transition,
+ it's just dumb rocks and machines,
  and above which "things come alive":
- they have enoughcomplexity to become autonomous.
- One can even get sophisticated here,and mumble about "self-organized criticality" at the "edge of chaos"-- very hip,
+ they have enough complexity to become autonomous.
+ One can even get sophisticated here,and mumble about "self–organized criticality" at the "edge of chaos" —
+ very hip,
  fad ideas from the 1980's.
+ 
 \end_layout
 
-\begin_layout Standard
-* Let me take a moment to sketch that territory,
- since it is not veryfamiliar to mainstream comp sci.
- An early canonical example was"critical opalescence" at the triple-point of water:
- the temp &pressure where water liquid,
- gas and ice co-exist at all lengthscales,
+\begin_layout Itemize
+Let me take a moment to sketch that territory,
+ since it is not very familiar to mainstream comp sci.
+ An early canonical example was"critical opalescence" at the triple–point of water:
+ the temp & pressure where water liquid,
+ gas and ice co–exist at all length scales,
  which is why it looks pearly,
  when you see it.
- It's asecond-order phase transition.
+ It's a second–order phase transition.
  Phil Anderson had a lot to say.
- Anotherphysicist,
+ Another physicist,
  Per Bak,
  built a simplified model:
  the "abelian sand pile":drop grains of sand onto a mound,
  and it gets taller and taller,
- andthen collapses,
+ and then collapses,
  avalanches.
  The avalanches are of all sizes:
- manysmall ones,
+ many small ones,
  a few medium,
  and rarely,
  big ones.
  This is 1/f noise,
  or"Zipfian distribution",
- observed freakin absolutely everywhere innature,
+ observed freakin absolutely everywhere in nature,
  if you cared to look,
- and not just in those electroniccircuits that Benoit Mandelbrot was tasked to examine.
- Per Bak went onto also create precise mathematical models of various biologicalecosystems.
+ and not just in those electronic circuits that Benoit Mandelbrot was tasked to examine.
+ Per Bak went onto also create precise mathematical models of various biological ecosystems.
  Unfortunately,
- he made the mistake of publicly callingbiologists "stupid",
+ he made the mistake of publicly calling biologists "stupid",
  which did not help his cause.
 \end_layout
 
-\begin_layout Standard
-* There is another branch:
- the amateur "a-life" (artificial life)movement of the 1980s,
+\begin_layout Itemize
+There is another branch:
+ the amateur "a–life" (artificial life)movement of the 1980s,
  inspired by John Conway's "game of life".Basically,
- you plunk down a bunch of cellular automata with some kindof small-ish set of state transition rules,
- and then try to evolvethem.
+ you plunk down a bunch of cellular automata with some kind of small–ish set of state transition rules,
+ and then try to evolve them.
  Genetically,
- by applying point mutations to the state transitionrules,
- or by doing cross-over.
+ by applying point mutations to the state transition rules,
+ or by doing cross–over.
  Evolution,
  however,
  is stunningly slow;you hit the wall of Kolmogorov complexity,
  then stop.
 \end_layout
 
-\begin_layout Standard
-* You can plink down the cellular automata on a square grid,
- or youcan allow them to grow freely,
+\begin_layout Itemize
+You can plink down the cellular automata on a square grid,
+ or you can allow them to grow freely,
  without a grid;
  they form trees.Formally,
- "Lindenmeyer systems" or "L-systems" -- these form not onlytrees,
+ "Lindenmeyer systems" or "L–systems" —
+ these form not only trees,
  but minor rule variations give bushes that grow from the tips,bushes that grow from the base,
  flowers that bloom from the bottom up,bloom from the top down,
  form leaf shapes wider at the top (gingko),wider at the bottom (birch/aspen),
  pointy (elm),
- many-pointed (maple),many-pointed-round (oak).
+ many–pointed (maple),
+ many–pointed–round (oak).
  Prusinkiewicz invented this field,
- called"algorithmic botany" and I have no clue why he is not famous.
- I am inawe.
- His achievement was that one could take *extremely stunninglysimple* purely-digital cellular automata,
- and recover vast tracts ofbotany.
- If you then couple the purely digital L-systems to acontinuous-valued differential equation (the reaction-diffusionequation) you explain an even broader tract of botany.
- And the analogyis obvious:
+ called "algorithmic botany" and I have no clue why he is not famous.
+ I am in awe.
+ His achievement was that one could take *
+\emph on
+extremely stunningly simple
+\emph default
+* purely–digital cellular automata,
+ and recover vast tracts of botany.
+ If you then couple the purely digital L–systems to a continuous–valued differential equation (the reaction–diffusion equation) you explain an even broader tract of botany.
+ And the analogy is obvious:
  the cellular automata are DNA,
- and the reaction-diffusiondiffeq are the proteins/enzymes.
+ and the reaction–diffusion diffeq are the proteins/enzymes.
  Awesome stuff.
 \end_layout
 
-\begin_layout Standard
-* What else?
+\begin_layout Itemize
+What else?
  "Membrane computing" ...
  but I digress.
 \end_layout
 
-\begin_layout Standard
-* A modern champion of this stuff is Micheal Levin,
- a microbiologist,who talks of "embodied intelligence",
- argues that even simplebiological systems are intelligent,
+\begin_layout Itemize
+A modern champion of this stuff is Micheal Levin,
+ a microbiologist,
+ who talks of "embodied intelligence",
+ argues that even simple biological systems are intelligent,
  and,
- to help prove his point,found some simple cellular automata that could be evolved toautomatically discover a sort algorithm (that "almost" works) and isfaster than any other known sort algorithm.
- For this achievement (andmany others) he has earned a seat at the California Institute forMachine Consciousness.
+ to help prove his point,found some simple cellular automata that could be evolved to automatically discover a sort algorithm (that "almost" works) and is faster than any other known sort algorithm.
+ For this achievement (and many others) he has earned a seat at the California Institute for Machine Consciousness.
  (CIMC) Along with our pal Joscha Bach.
- (Idon't believe that either Levin,
- or Joscha are aware of the work ofPrusinkiewicz,
+ (I don't believe that either Levin,
+ or Joscha are aware of the work of Prusinkiewicz,
  or Per Bak,
  or even Phil Anderson,
  for that matter,
- butsince that work is now 30 to 60 years old,
- maybe it doesn't muchmatter?) I did write a letter to the CIMC,
- but they yawned and repliedthanks but no thanks.
+ but since that work is now 30 to 60 years old,
+ maybe it doesn't much matter?) I did write a letter to the CIMC,
+ but they yawned and replied thanks but no thanks.
  Oh well.
 \end_layout
 
-\begin_layout Standard
-* OK,
- so the above six bullets provide a sketch of prior art at theintersection of dynamical systems,
- computation and biology."self-organized criticality" is at the center of it,
- and it's alsoseen in economics (prisoner's dilemma game,
+\begin_layout Itemize
+OK,
+ so the above six bullets provide a sketch of prior art at the intersection of dynamical systems,
+ computation and biology."self–organized criticality" is at the center of it,
+ and it's also seen in economics (prisoner's dilemma game,
  corporate organizations,mergers,
  acquisitions,
- marketplace theories...) and there's alsosomething called "experimental philosophy",
- having to do withmulti-player game-theoretic network representations of ..
- logicalinferences,
+ marketplace theories...) and there's also something called "experimental philosophy",
+ having to do with multi–player game–theoretic network representations of ..
+ logical inferences,
  or something.
  I don't recall.
  Anyway,
- this is a genericrecurring blob of ideas having to do with "life,
+ this is a generic recurring blob of ideas having to do with "life,
  consciousness,thinking,
  reasoning and all that" and,
  for whatever reason,
- thetraditional,
+ the traditional,
  conventional compsci,
  AI,
  AGI,
- LLM crowd is blissfullyunaware of it.
+ LLM crowd is blissfully unaware of it.
  Not sure why.
  Ben would yawn in disinterest.
- Perhaps Iexplained it wrong,
+ Perhaps I explained it wrong,
  perhaps it's his ADHD.
 \end_layout
 
-\begin_layout Standard
-* So the AtomSpace,
+\begin_layout Itemize
+So the AtomSpace,
  and Atomese,
- is really meant to be aone-size-fits-all computational infrastructure capable ofrepresenting,
+ is really meant to be a one–size–fits–all computational infrastructure capable of representing,
  emulating,
- providing the Petri dish for any and allembodiments of the above sort.
- So to get back to your initial remark:"parallelizing the Atomspace" is an interesting and worthy effort,
- butit pales in the vastness of the above landscape.
- My goal is to workon *all* of the above topics,
+ providing the Petri dish for any and all embodiments of the above sort.
+ So to get back to your initial remark:
+ "parallelizing the Atomspace" is an interesting and worthy effort,
+ but it pales in the vastness of the above landscape.
+ My goal is to work on *all* of the above topics,
  "at the same time".
- Piddly-dinking somec++ code to maybe run on GPU's,
+ Piddly–dinking some c++ code to maybe run on GPU's,
  or not,
- is very nearly a pointlessdistraction.
+ is very nearly a pointless distraction.
  It's worthy,
  but it's off in the periphery.
 \end_layout
 
-\begin_layout Standard
-* I do have some nagging self-doubts.
+\begin_layout Itemize
+I do have some nagging self–doubts.
  For example,
- if you want to playprisoner's dilemma on a network,
- just ask Claude to write that codefor you.
- Want an abelian sand-pile?
+ if you want to play prisoner's dilemma on a network,
+ just ask Claude to write that code for you.
+ Want an abelian sand–pile?
  Ask Claude to implement it.
- Need agame-theoretic model of corporate takeovers?
+ Need a game–theoretic model of corporate takeovers?
  Ask Claude.
- Pricingcompetition between gas stations?
+ Pricing competition between gas stations?
  Ask Claude.
- A probabilistic theoremprover?
+ A probabilistic theorem prover?
  Ask Claude.
  Mashup of Ising model,
  Markov logic,
- using pytorchtransformers?
+ using pytorch transformers?
  Ask Claude ...
  WTF do you need the AtomSpace for,
- forany of these things?
+ for any of these things?
  We have built our world,
  the human world,
- out ofhighly specialized,
- highly engineered complex systems thatinteroperate thanks to millions of man-years of engineering,
- and myvague imagining of the AtomSpace (or Atomese) as some one-size-fitsall re-invention of the very fabric of computing is perhaps insane...
+ out of highly specialized,
+ highly engineered complex systems that interoperate thanks to millions of man–years of engineering,
+ and my vague imagining of the AtomSpace (or Atomese) as some one–size–fits–all re–invention of the very fabric of computing is perhaps insane...
 \end_layout
 
-\begin_layout Standard
-* And yet,
+\begin_layout Itemize
+And yet,
  whenever I ask Claude to do something ...
  man o man,
- Claudeis a wonderful labor saving device,
- I am 10x more productive writingcode;
+ Claude is a wonderful labor saving device,
+ I am 10x more productive writing code;
  But also Claude is dumb as a rock.
- It has zero understandingwhatsoever of "what's going on".
- It entirely lacks any concept ofwhat anything is,
+ It has zero understanding whatsoever of "what's going on".
+ It entirely lacks any concept of what anything is,
  what it does,
  why it's there or how it works.
- It isjust clueless.
+ It is just clueless.
  And so,
- I can justify my urge to do basic comp-sciresearch on life,
+ I can justify my urge to do basic comp–sci research on life,
  thinking,
  perception,
  memory,
  action,
- manipulationand movement:
- the stuff of consciousness and intelligence because it'sclearly unsolved,
- and nothing else out there comes even remotely closeto what I can do with Atomese...
+ manipulation and movement:
+ the stuff of consciousness and intelligence because it's clearly unsolved,
+ and nothing else out there comes even remotely close to what I can do with Atomese...
 \end_layout
 
 \begin_layout Standard
