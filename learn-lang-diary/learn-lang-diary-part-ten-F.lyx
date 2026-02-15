@@ -11937,246 +11937,172 @@ It is also necessary to "perceive" the inside,
  the data structures "in here" can be acted on by algorithms.
 \end_layout
 
-\begin_layout Standard
-* Some of the algos access "internal data" directly;
+\begin_layout Itemize
+Some of the algos access "internal data" directly;
  e.g.
- explicit c++
-code will manipulate,
+ explicit c++code will manipulate,
  mutate,
- control c++ structures "in here"
-(inside).
+ control c++ structures "in here"(inside).
  Other algos are "indirect":
  for example,
- if I write an algo
-in Atomese,
- it does not compile into x86 assembly or java byte code;
-it controls AtomSpace contents indirectly.
- It applies transformations
-that alter AtomSpace contents.
+ if I write an algo in Atomese,
+ it does not compile into x86 assembly or java byte code;it controls AtomSpace contents indirectly.
+ It applies transformationsthat alter AtomSpace contents.
 \end_layout
 
-\begin_layout Standard
-* The GPU challenge is an interesting middle ground:
- the GPU's are not
-some external world that can be acted on,
- but they are also not "in
-here".
+\begin_layout Itemize
+The GPU challenge is an interesting middle ground:
+ the GPU's are not some external world that can be acted on,
+ but they are also not "inhere".
  So then,
  in what sense can a GPU be "perceived",
- and how can it
-be "manipulated and controlled"?
+ and how can it be "manipulated and controlled"?
  That is,
  how can an algo,
- an Atomese
-algo,
+ an Atomese algo,
  perceive what a GPU is,
- and how can an Atomese algo manipulate a
-GPU to "do something useful"?
+ and how can an Atomese algo manipulate a GPU to "do something useful"?
  How can GPU's be described,
- in
-Atomese,
- and how can an Atomese algo leap from running on the CPU to
-the GPU?
+ in Atomese,
+ and how can an Atomese algo leap from running on the CPU to he GPU?
  And back,
  depending on bus congestion?
- Depending on
-performance metrics?
+ Depending on performance metrics?
 \end_layout
 
-\begin_layout Standard
-* And again,
+\begin_layout Itemize
+And again,
  this gets very recursive:
- How can performance metrics be
-perceived,
+ How can performance metrics be perceived,
  interpreted,
  understood?
- How can one blob of Atomese
-examine performance metrics,
- and determine what sort of abstract
-rewrites need to be applied to move another blob of Atomese from CPU
-to GPU and back?
+ How can one blob of Atomese examine performance metrics,
+ and determine what sort of abstract rewrites need to be applied to move another blob of Atomese from CPU to GPU and back?
  To "optimize" it?
 \end_layout
 
-\begin_layout Standard
-* The last bullet has two distinct and diametrically opposed answers
-or flavors.
+\begin_layout Itemize
+The last bullet has two distinct and diametrically opposed answers or flavors.
  The first answer is extremely conventional:
- do
-1980's-2010's style software engineering:
+ do1980's-2010's style software engineering:
  examine,
  invent,
- write
-specs,
+ write specs,
  write code,
  unit tests.
  Better yet,
- google it and download
-existing libraries and frameworks that already do exactly this.
- Wire
-them up as needed.
+ google it and download existing libraries and frameworks that already do exactly this.
+ Wire them up as needed.
  Do NOT reinvent the wheel.
  Dust off hands,
  clap,
-problem solved.
+ problem solved.
+ 
 \end_layout
 
-\begin_layout Standard
-* The second answer is to double down on the conception of Atomese,
-but then look at it sharply,
+\begin_layout Itemize
+The second answer is to double down on the conception of Atomese,
+ but then look at it sharply,
  critically.
- The AST's of Atomese are a de
-facto attempt to invent an abstract assembly language,
- perhaps with an
-eye towards re-inventing the conception of computing:
- what it means to
-compute.
+ The AST's of Atomese are a de facto attempt to invent an abstract assembly language,
+ perhaps with an eye towards re–inventing the conception of computing:
+ what it means to compute.
  (so,
- wandering into crazy-land,
- as it were.) The critique is
-that Atomese snippets,
- the AST's are actually really rather small
-things,
+ wandering into crazy–land,
+ as it were.) The critique is that Atomese snippets,
+ the AST's are actually really rather small things,
  "molecular" in size,
  just not big enough,
- capable enough to
-perform the self-modification imagined two bullets earlier:
- to
-rewrite,
+ capable enough to perform the self–modification imagined two bullets earlier:
+ to rewrite,
  jump,
  morph,
- move between CPU and GPU on an as-needed basis.
-By analogy,
+ move between CPU and GPU on an as–needed basis.By analogy,
  biological viruses can jump and move;
- but they are made of
-lots and lots of molecules;
- my Atomese expressions are much much
-smaller.
+ but they are made of lots and lots of molecules;
+ my Atomese expressions are much much smaller.
 \end_layout
 
 \begin_layout Standard
 * Perhaps there is some minimal size,
- some minimal complexity required
-for a thing to be "living",
+ some minimal complexity requiredfor a thing to be "living",
  or at least to motor around.
- Maybe there
-is a phase transition (in the sense of statistical mechanics,
-thermodynamics) and below this phase transition,
- it's just dumb rocks
-and machines,
+ Maybe thereis a phase transition (in the sense of statistical mechanics,thermodynamics) and below this phase transition,
+ it's just dumb rocksand machines,
  and above which "things come alive":
- they have enough
-complexity to become autonomous.
- One can even get sophisticated here,
-and mumble about "self-organized criticality" at the "edge of chaos"
--- very hip,
+ they have enoughcomplexity to become autonomous.
+ One can even get sophisticated here,and mumble about "self-organized criticality" at the "edge of chaos"-- very hip,
  fad ideas from the 1980's.
 \end_layout
 
 \begin_layout Standard
 * Let me take a moment to sketch that territory,
- since it is not very
-familiar to mainstream comp sci.
- An early canonical example was
-"critical opalescence" at the triple-point of water:
- the temp &
-pressure where water liquid,
- gas and ice co-exist at all length
-scales,
+ since it is not veryfamiliar to mainstream comp sci.
+ An early canonical example was"critical opalescence" at the triple-point of water:
+ the temp &pressure where water liquid,
+ gas and ice co-exist at all lengthscales,
  which is why it looks pearly,
  when you see it.
- It's a
-second-order phase transition.
+ It's asecond-order phase transition.
  Phil Anderson had a lot to say.
- Another
-physicist,
+ Anotherphysicist,
  Per Bak,
  built a simplified model:
- the "abelian sand pile":
-drop grains of sand onto a mound,
+ the "abelian sand pile":drop grains of sand onto a mound,
  and it gets taller and taller,
- and
-then collapses,
+ andthen collapses,
  avalanches.
  The avalanches are of all sizes:
- many
-small ones,
+ manysmall ones,
  a few medium,
  and rarely,
  big ones.
  This is 1/f noise,
- or
-"Zipfian distribution",
- observed freakin absolutely everywhere in
-nature,
+ or"Zipfian distribution",
+ observed freakin absolutely everywhere innature,
  if you cared to look,
- and not just in those electronic
-circuits that Benoit Mandelbrot was tasked to examine.
- Per Bak went on
-to also create precise mathematical models of various biological
-ecosystems.
+ and not just in those electroniccircuits that Benoit Mandelbrot was tasked to examine.
+ Per Bak went onto also create precise mathematical models of various biologicalecosystems.
  Unfortunately,
- he made the mistake of publicly calling
-biologists "stupid",
+ he made the mistake of publicly callingbiologists "stupid",
  which did not help his cause.
 \end_layout
 
 \begin_layout Standard
 * There is another branch:
- the amateur "a-life" (artificial life)
-movement of the 1980s,
- inspired by John Conway's "game of life".
-Basically,
- you plunk down a bunch of cellular automata with some kind
-of small-ish set of state transition rules,
- and then try to evolve
-them.
+ the amateur "a-life" (artificial life)movement of the 1980s,
+ inspired by John Conway's "game of life".Basically,
+ you plunk down a bunch of cellular automata with some kindof small-ish set of state transition rules,
+ and then try to evolvethem.
  Genetically,
- by applying point mutations to the state transition
-rules,
+ by applying point mutations to the state transitionrules,
  or by doing cross-over.
  Evolution,
  however,
- is stunningly slow;
-you hit the wall of Kolmogorov complexity,
+ is stunningly slow;you hit the wall of Kolmogorov complexity,
  then stop.
 \end_layout
 
 \begin_layout Standard
 * You can plink down the cellular automata on a square grid,
- or you
-can allow them to grow freely,
+ or youcan allow them to grow freely,
  without a grid;
- they form trees.
-Formally,
- "Lindenmeyer systems" or "L-systems" -- these form not only
-trees,
- but minor rule variations give bushes that grow from the tips,
-bushes that grow from the base,
- flowers that bloom from the bottom up,
-bloom from the top down,
- form leaf shapes wider at the top (gingko),
-wider at the bottom (birch/aspen),
+ they form trees.Formally,
+ "Lindenmeyer systems" or "L-systems" -- these form not onlytrees,
+ but minor rule variations give bushes that grow from the tips,bushes that grow from the base,
+ flowers that bloom from the bottom up,bloom from the top down,
+ form leaf shapes wider at the top (gingko),wider at the bottom (birch/aspen),
  pointy (elm),
- many-pointed (maple),
-many-pointed-round (oak).
+ many-pointed (maple),many-pointed-round (oak).
  Prusinkiewicz invented this field,
- called
-"algorithmic botany" and I have no clue why he is not famous.
- I am in
-awe.
- His achievement was that one could take *extremely stunningly
-simple* purely-digital cellular automata,
- and recover vast tracts of
-botany.
- If you then couple the purely digital L-systems to a
-continuous-valued differential equation (the reaction-diffusion
-equation) you explain an even broader tract of botany.
- And the analogy
-is obvious:
+ called"algorithmic botany" and I have no clue why he is not famous.
+ I am inawe.
+ His achievement was that one could take *extremely stunninglysimple* purely-digital cellular automata,
+ and recover vast tracts ofbotany.
+ If you then couple the purely digital L-systems to acontinuous-valued differential equation (the reaction-diffusionequation) you explain an even broader tract of botany.
+ And the analogyis obvious:
  the cellular automata are DNA,
- and the reaction-diffusion
-diffeq are the proteins/enzymes.
+ and the reaction-diffusiondiffeq are the proteins/enzymes.
  Awesome stuff.
 \end_layout
 
@@ -12188,96 +12114,64 @@ diffeq are the proteins/enzymes.
 
 \begin_layout Standard
 * A modern champion of this stuff is Micheal Levin,
- a microbiologist,
-who talks of "embodied intelligence",
- argues that even simple
-biological systems are intelligent,
+ a microbiologist,who talks of "embodied intelligence",
+ argues that even simplebiological systems are intelligent,
  and,
- to help prove his point,
-found some simple cellular automata that could be evolved to
-automatically discover a sort algorithm (that "almost" works) and is
-faster than any other known sort algorithm.
- For this achievement (and
-many others) he has earned a seat at the California Institute for
-Machine Consciousness.
+ to help prove his point,found some simple cellular automata that could be evolved toautomatically discover a sort algorithm (that "almost" works) and isfaster than any other known sort algorithm.
+ For this achievement (andmany others) he has earned a seat at the California Institute forMachine Consciousness.
  (CIMC) Along with our pal Joscha Bach.
- (I
-don't believe that either Levin,
- or Joscha are aware of the work of
-Prusinkiewicz,
+ (Idon't believe that either Levin,
+ or Joscha are aware of the work ofPrusinkiewicz,
  or Per Bak,
  or even Phil Anderson,
  for that matter,
- but
-since that work is now 30 to 60 years old,
- maybe it doesn't much
-matter?) I did write a letter to the CIMC,
- but they yawned and replied
-thanks but no thanks.
+ butsince that work is now 30 to 60 years old,
+ maybe it doesn't muchmatter?) I did write a letter to the CIMC,
+ but they yawned and repliedthanks but no thanks.
  Oh well.
 \end_layout
 
 \begin_layout Standard
 * OK,
- so the above six bullets provide a sketch of prior art at the
-intersection of dynamical systems,
- computation and biology.
-"self-organized criticality" is at the center of it,
- and it's also
-seen in economics (prisoner's dilemma game,
- corporate organizations,
-mergers,
+ so the above six bullets provide a sketch of prior art at theintersection of dynamical systems,
+ computation and biology."self-organized criticality" is at the center of it,
+ and it's alsoseen in economics (prisoner's dilemma game,
+ corporate organizations,mergers,
  acquisitions,
- marketplace theories...) and there's also
-something called "experimental philosophy",
- having to do with
-multi-player game-theoretic network representations of ..
- logical
-inferences,
+ marketplace theories...) and there's alsosomething called "experimental philosophy",
+ having to do withmulti-player game-theoretic network representations of ..
+ logicalinferences,
  or something.
  I don't recall.
  Anyway,
- this is a generic
-recurring blob of ideas having to do with "life,
- consciousness,
-thinking,
+ this is a genericrecurring blob of ideas having to do with "life,
+ consciousness,thinking,
  reasoning and all that" and,
  for whatever reason,
- the
-traditional,
+ thetraditional,
  conventional compsci,
  AI,
  AGI,
- LLM crowd is blissfully
-unaware of it.
+ LLM crowd is blissfullyunaware of it.
  Not sure why.
  Ben would yawn in disinterest.
- Perhaps I
-explained it wrong,
+ Perhaps Iexplained it wrong,
  perhaps it's his ADHD.
 \end_layout
 
 \begin_layout Standard
 * So the AtomSpace,
  and Atomese,
- is really meant to be a
-one-size-fits-all computational infrastructure capable of
-representing,
+ is really meant to be aone-size-fits-all computational infrastructure capable ofrepresenting,
  emulating,
- providing the Petri dish for any and all
-embodiments of the above sort.
- So to get back to your initial remark:
-"parallelizing the Atomspace" is an interesting and worthy effort,
- but
-it pales in the vastness of the above landscape.
- My goal is to work
-on *all* of the above topics,
+ providing the Petri dish for any and allembodiments of the above sort.
+ So to get back to your initial remark:"parallelizing the Atomspace" is an interesting and worthy effort,
+ butit pales in the vastness of the above landscape.
+ My goal is to workon *all* of the above topics,
  "at the same time".
- Piddly-dinking some
-c++ code to maybe run on GPU's,
+ Piddly-dinking somec++ code to maybe run on GPU's,
  or not,
- is very nearly a pointless
-distraction.
+ is very nearly a pointlessdistraction.
  It's worthy,
  but it's off in the periphery.
 \end_layout
@@ -12285,70 +12179,50 @@ distraction.
 \begin_layout Standard
 * I do have some nagging self-doubts.
  For example,
- if you want to play
-prisoner's dilemma on a network,
- just ask Claude to write that code
-for you.
+ if you want to playprisoner's dilemma on a network,
+ just ask Claude to write that codefor you.
  Want an abelian sand-pile?
  Ask Claude to implement it.
- Need a
-game-theoretic model of corporate takeovers?
+ Need agame-theoretic model of corporate takeovers?
  Ask Claude.
- Pricing
-competition between gas stations?
+ Pricingcompetition between gas stations?
  Ask Claude.
- A probabilistic theorem
-prover?
+ A probabilistic theoremprover?
  Ask Claude.
  Mashup of Ising model,
  Markov logic,
- using pytorch
-transformers?
+ using pytorchtransformers?
  Ask Claude ...
  WTF do you need the AtomSpace for,
- for
-any of these things?
+ forany of these things?
  We have built our world,
  the human world,
- out of
-highly specialized,
- highly engineered complex systems that
-interoperate thanks to millions of man-years of engineering,
- and my
-vague imagining of the AtomSpace (or Atomese) as some one-size-fits
-all re-invention of the very fabric of computing is perhaps insane...
+ out ofhighly specialized,
+ highly engineered complex systems thatinteroperate thanks to millions of man-years of engineering,
+ and myvague imagining of the AtomSpace (or Atomese) as some one-size-fitsall re-invention of the very fabric of computing is perhaps insane...
 \end_layout
 
 \begin_layout Standard
 * And yet,
  whenever I ask Claude to do something ...
  man o man,
- Claude
-is a wonderful labor saving device,
- I am 10x more productive writing
-code;
+ Claudeis a wonderful labor saving device,
+ I am 10x more productive writingcode;
  But also Claude is dumb as a rock.
- It has zero understanding
-whatsoever of "what's going on".
- It entirely lacks any concept of
-what anything is,
+ It has zero understandingwhatsoever of "what's going on".
+ It entirely lacks any concept ofwhat anything is,
  what it does,
  why it's there or how it works.
- It is
-just clueless.
+ It isjust clueless.
  And so,
- I can justify my urge to do basic comp-sci
-research on life,
+ I can justify my urge to do basic comp-sciresearch on life,
  thinking,
  perception,
  memory,
  action,
- manipulation
-and movement:
- the stuff of consciousness and intelligence because it's
-clearly unsolved,
- and nothing else out there comes even remotely close
-to what I can do with Atomese...
+ manipulationand movement:
+ the stuff of consciousness and intelligence because it'sclearly unsolved,
+ and nothing else out there comes even remotely closeto what I can do with Atomese...
 \end_layout
 
 \begin_layout Standard
@@ -12361,181 +12235,133 @@ I have several other overlapping projects that tie into the above.
 
 \begin_layout Standard
 * I'm a bit stalled with the sheaf representation.
- It's easy when it's
-link grammar;
+ It's easy when it'slink grammar;
  it's hard when it's generic atomese.
- It's annoyingly
-verbose.
+ It's annoyinglyverbose.
  Assembling jigsaws is easy to say but hard to do.
 \end_layout
 
 \begin_layout Standard
-* The plan to rewrite the counting code to be truly generic remains
-stalled.
- I did create much or most of the needed infrastructure as
-"pure Atomese" demos (in various example files) that can count
-(increment counts),
+* The plan to rewrite the counting code to be truly generic remainsstalled.
+ I did create much or most of the needed infrastructure as"pure Atomese" demos (in various example files) that can count(increment counts),
  compute MI,
  cosines,
  sort arrays,
- but have gotten
-stuck with the file system crawler.
+ but have gottenstuck with the file system crawler.
 \end_layout
 
 \begin_layout Standard
 * The problem with the file-system crawler is this.
- I want to get away
-from batch processing;
- the pie-in-the-sky idea is that the crawler can
-walk the file system and find what is there,
- process this or that
-file,
+ I want to get awayfrom batch processing;
+ the pie-in-the-sky idea is that the crawler canwalk the file system and find what is there,
+ process this or thatfile,
  move on to the next one,
- or maybe return for a second look,
-reprocess again,
- but this time with the MST parser instead of the
-token counter,
+ or maybe return for a second look,reprocess again,
+ but this time with the MST parser instead of thetoken counter,
  etc.
  Wonderful.
  Great.
- And I do have an Atomese file
-and file-system object.
+ And I do have an Atomese fileand file-system object.
  I have,
  in fact,
- created a "world model" of an
-"external" file system,
- it now exists as a graph with half-a-million
-Atoms in my AtomSpace.
+ created a "world model" of an"external" file system,
+ it now exists as a graph with half-a-millionAtoms in my AtomSpace.
  Great.
  Now what?
- How do I "perceive" that
-structure?
+ How do I "perceive" thatstructure?
  How do I "move" through it?
  Or rather,
- out of what thin air
-does the agent appear,
+ out of what thin airdoes the agent appear,
  that knows how to walk a file system?
- Of
-course,
+ Ofcourse,
  it has to bootstrap,
  I guess.
 \end_layout
 
 \begin_layout Standard
 * My (file-system-walking) agent is written in Atomese.
- (I also have a
-"counting agent" and a prototype cosine-dot-product agent,
- and some
-others:
+ (I also have a"counting agent" and a prototype cosine-dot-product agent,
+ and someothers:
  they're being bootstrapped.)
 \end_layout
 
 \begin_layout Standard
 * "Pure Atomese",
  so it can be mutated.
- But this hits two stumbling
-blocks:
+ But this hits two stumblingblocks:
  there is no sheaf-theoretical,
- jigsaw assembly description of
-these agents.
+ jigsaw assembly description ofthese agents.
  Yes,
  they are "pure atomese",
- but they are not yet
-composed of jigsaws.
+ but they are not yetcomposed of jigsaws.
  In particular,
- I am not sure how to connect the
-dots:
- to move from jigsaws (which are effectively proof-theoretic
-inference rules and axioms) jump through currey-howard,
- and arrive at
-an algorithm that can compute e.g.
+ I am not sure how to connect thedots:
+ to move from jigsaws (which are effectively proof-theoreticinference rules and axioms) jump through currey-howard,
+ and arrive atan algorithm that can compute e.g.
  the dot-product of two vectors.
 \end_layout
 
 \begin_layout Standard
 * So,
  again,
- you can see why I am not all that interested in
-"parallelizing the AtomSpace";
- I am interested in providing a
-sheaf-theoretic description of a dot product.
+ you can see why I am not all that interested in"parallelizing the AtomSpace";
+ I am interested in providing asheaf-theoretic description of a dot product.
  Sheaf theoretic,
- so
-that it can be assembled,
+ sothat it can be assembled,
  dis-assembled,
  reassembled,
  mutated,
- and
-moved about.
+ andmoved about.
  *If* I could do that,
- then maybe I would have
-infrastructure capable of bootstrapping into more complex agentic
-systems.
+ then maybe I would haveinfrastructure capable of bootstrapping into more complex agenticsystems.
  But this remains just barely within reach.
 \end_layout
 
 \begin_layout Standard
 * Thus:
  there's a chicken-and-egg problem.
- I have filesystem data in
-the Atomspace.
+ I have filesystem data inthe Atomspace.
  I can ingest it.
  But I can't yet perceive it,
- because I
-do not have a perceptual mechanism for it.
+ because Ido not have a perceptual mechanism for it.
 \end_layout
 
 \begin_layout Standard
-* I do have strong positive results from 3 or 4 or 5 years ago now (or
-more ..
+* I do have strong positive results from 3 or 4 or 5 years ago now (ormore ..
  lord how time flies) The basic learn algo works great,
- it
-reproduces the old Word2Vec style results,
+ itreproduces the old Word2Vec style results,
  or GloVE style,
- or even
-simple basic transformer-ish results;
+ or evensimple basic transformer-ish results;
  it works.
  It's fine.
- It's not
-perfect,
+ It's notperfect,
  but it's OK,
  it's good enough.
- And I know exactly how to
-generalize it for sound,
+ And I know exactly how togeneralize it for sound,
  video,
- I think I know how to generalize it to
-abstract domains,
+ I think I know how to generalize it toabstract domains,
  like electronic circuit diagrams ...
  and maybe,
- just
-maybe,
+ justmaybe,
  to ...
  file system crawl results.
- But I just don't have the
-generic framework for this.
+ But I just don't have thegeneric framework for this.
 \end_layout
 
 \begin_layout Standard
 * Last summer,
- I talked to you about being able to perceive
-"mathematical axioms" and "structures" -- that's still the case,
- still
-the plan.
+ I talked to you about being able to perceive"mathematical axioms" and "structures" -- that's still the case,
+ stillthe plan.
  The quest to "perceive file systems",
- and "perceive
-electronic circuits" and "perceive sound,
- photos" all of these being
-special cases.
+ and "perceiveelectronic circuits" and "perceive sound,
+ photos" all of these beingspecial cases.
  I'm just stuck trying to bootstrap it.
 \end_layout
 
 \begin_layout Standard
 And using Claude to build that framework is like ...
- dragging a mule
-laden with bags of salt through a rapidly flowing creek while cajoling
-a 5 year old toddler throwing a temper tantrum.
- So I'm pretty well
-hosed on my research project.
+ dragging a muleladen with bags of salt through a rapidly flowing creek while cajolinga 5 year old toddler throwing a temper tantrum.
+ So I'm pretty wellhosed on my research project.
 \end_layout
 
 \begin_layout Standard
@@ -12545,8 +12371,7 @@ So now you see where I am trying to go with this.
 \begin_layout Standard
 I'm re-reading,
  proof-reading:
- L-systems are very highly
-parallelizable:
+ L-systems are very highlyparallelizable:
  they are,
  by definition,
  parallel.
