@@ -11841,6 +11841,1284 @@ how can I use an LLM as a user–interface to my software system X
 So...
 \end_layout
 
+\begin_layout Subsection*
+13 Feb 2026
+\end_layout
+
+\begin_layout Standard
+I posted this on a youtube video of a fake AI–generated Leonard Susskind saying true but boring things about spacetime.
+\end_layout
+
+\begin_layout Standard
+That's the problem with AI–generated text —
+ its an intellectual monotone,
+ repetitive,
+ hitting the same note over and over.
+ Not moving forward.
+ Basically,
+ AI has no clue of what it is talking about,
+ and therefore,
+ doesn't know where the surprises are,
+ the secrets,
+ the gems that the human listeners are looking for.
+\end_layout
+
+\begin_layout Subsection*
+14 Feb 2026
+\end_layout
+
+\begin_layout Standard
+Hi Adam,
+\end_layout
+
+\begin_layout Standard
+Do you mind a long email?
+ Let me write one,
+ because it helps my thoughts.
+ Plus,
+ it's nice to have an audience,
+ instead of mumbling to myself :-)
+\end_layout
+
+\begin_layout Standard
+"Parallelization" is something one does to algorithms,
+ not to data structures.
+ The AtomSpace is (mostly) a data structure,
+ and is intended to be an "abstract" one,
+ without any "preferred" implementation (although it clearly has one de facto implementation,
+ and two,
+ (or more?) if you squint at what singularitynet has done.) I assume you are writing because you've spotted recent traffic.
+ So let me provide a very convoluted update.
+\end_layout
+
+\begin_layout Standard
+Half a year ago,
+ I messed around a bit with GPU's.
+ No particular plans,
+ just screwing around.
+ The original idea went like this:
+ "Oh hey,
+ Atomese is a language for expressing Abstract Syntax Trees (AST),
+ and my datasets consist of sparse vectors,
+ and I have half–a–dozen different vector formats in Atomese,
+ and I have existing arithmetic Atoms for Plus,
+ Times,
+ GreaterThan,
+ maybe I can slap this on the GPU.
+\end_layout
+
+\begin_layout Standard
+Being who I am,
+ the "obvious" approach of just hacking it and forcing it to work repelled me:
+ it would be a pointless time–consuming hack.
+ Now,
+ *if* it was urgently needed in order to meet some other *truly important* goal,
+ then by all means hackery is the right thing to do.
+ But that wasn't this.
+ Instead,
+ I am at the confluence of 5 or 6 different ideas,
+ trying to push all of them at the same time.
+ They are:
+\end_layout
+
+\begin_layout Itemize
+How do I build a "world model" of the (unbounded) "world out there",
+ and represent it in the finite space "in here"?
+ What is the nature of the cell wall that divides inside from outside?
+ How does one perceive the outside?
+\end_layout
+
+\begin_layout Itemize
+It is also necessary to "perceive" the inside,
+ and "manipulate" the internal representation.
+ So this idea of perception and action is a bit recursive.
+ However,
+ with a big distinction:
+ the data structures "in here" can be acted on by algorithms.
+\end_layout
+
+\begin_layout Standard
+* Some of the algos access "internal data" directly;
+ e.g.
+ explicit c++
+\end_layout
+
+\begin_layout Standard
+code will manipulate,
+ mutate,
+ control c++ structures "in here"
+\end_layout
+
+\begin_layout Standard
+(inside).
+ Other algos are "indirect":
+ for example,
+ if I write an algo
+\end_layout
+
+\begin_layout Standard
+in Atomese,
+ it does not compile into x86 assembly or java byte code;
+\end_layout
+
+\begin_layout Standard
+it controls AtomSpace contents indirectly.
+ It applies transformations
+\end_layout
+
+\begin_layout Standard
+that alter AtomSpace contents.
+\end_layout
+
+\begin_layout Standard
+* The GPU challenge is an interesting middle ground:
+ the GPU's are not
+\end_layout
+
+\begin_layout Standard
+some external world that can be acted on,
+ but they are also not "in
+\end_layout
+
+\begin_layout Standard
+here".
+ So then,
+ in what sense can a GPU be "perceived",
+ and how can it
+\end_layout
+
+\begin_layout Standard
+be "manipulated and controlled"?
+ That is,
+ how can an algo,
+ an Atomese
+\end_layout
+
+\begin_layout Standard
+algo,
+ perceive what a GPU is,
+ and how can an Atomese algo manipulate a
+\end_layout
+
+\begin_layout Standard
+GPU to "do something useful"?
+ How can GPU's be described,
+ in
+\end_layout
+
+\begin_layout Standard
+Atomese,
+ and how can an Atomese algo leap from running on the CPU to
+\end_layout
+
+\begin_layout Standard
+the GPU?
+ And back,
+ depending on bus congestion?
+ Depending on
+\end_layout
+
+\begin_layout Standard
+performance metrics?
+\end_layout
+
+\begin_layout Standard
+* And again,
+ this gets very recursive:
+ How can performance metrics be
+\end_layout
+
+\begin_layout Standard
+perceived,
+ interpreted,
+ understood?
+ How can one blob of Atomese
+\end_layout
+
+\begin_layout Standard
+examine performance metrics,
+ and determine what sort of abstract
+\end_layout
+
+\begin_layout Standard
+rewrites need to be applied to move another blob of Atomese from CPU
+\end_layout
+
+\begin_layout Standard
+to GPU and back?
+ To "optimize" it?
+\end_layout
+
+\begin_layout Standard
+* The last bullet has two distinct and diametrically opposed answers
+\end_layout
+
+\begin_layout Standard
+or flavors.
+ The first answer is extremely conventional:
+ do
+\end_layout
+
+\begin_layout Standard
+1980's-2010's style software engineering:
+ examine,
+ invent,
+ write
+\end_layout
+
+\begin_layout Standard
+specs,
+ write code,
+ unit tests.
+ Better yet,
+ google it and download
+\end_layout
+
+\begin_layout Standard
+existing libraries and frameworks that already do exactly this.
+ Wire
+\end_layout
+
+\begin_layout Standard
+them up as needed.
+ Do NOT reinvent the wheel.
+ Dust off hands,
+ clap,
+\end_layout
+
+\begin_layout Standard
+problem solved.
+\end_layout
+
+\begin_layout Standard
+* The second answer is to double down on the conception of Atomese,
+\end_layout
+
+\begin_layout Standard
+but then look at it sharply,
+ critically.
+ The AST's of Atomese are a de
+\end_layout
+
+\begin_layout Standard
+facto attempt to invent an abstract assembly language,
+ perhaps with an
+\end_layout
+
+\begin_layout Standard
+eye towards re-inventing the conception of computing:
+ what it means to
+\end_layout
+
+\begin_layout Standard
+compute.
+ (so,
+ wandering into crazy-land,
+ as it were.) The critique is
+\end_layout
+
+\begin_layout Standard
+that Atomese snippets,
+ the AST's are actually really rather small
+\end_layout
+
+\begin_layout Standard
+things,
+ "molecular" in size,
+ just not big enough,
+ capable enough to
+\end_layout
+
+\begin_layout Standard
+perform the self-modification imagined two bullets earlier:
+ to
+\end_layout
+
+\begin_layout Standard
+rewrite,
+ jump,
+ morph,
+ move between CPU and GPU on an as-needed basis.
+\end_layout
+
+\begin_layout Standard
+By analogy,
+ biological viruses can jump and move;
+ but they are made of
+\end_layout
+
+\begin_layout Standard
+lots and lots of molecules;
+ my Atomese expressions are much much
+\end_layout
+
+\begin_layout Standard
+smaller.
+\end_layout
+
+\begin_layout Standard
+* Perhaps there is some minimal size,
+ some minimal complexity required
+\end_layout
+
+\begin_layout Standard
+for a thing to be "living",
+ or at least to motor around.
+ Maybe there
+\end_layout
+
+\begin_layout Standard
+is a phase transition (in the sense of statistical mechanics,
+\end_layout
+
+\begin_layout Standard
+thermodynamics) and below this phase transition,
+ it's just dumb rocks
+\end_layout
+
+\begin_layout Standard
+and machines,
+ and above which "things come alive":
+ they have enough
+\end_layout
+
+\begin_layout Standard
+complexity to become autonomous.
+ One can even get sophisticated here,
+\end_layout
+
+\begin_layout Standard
+and mumble about "self-organized criticality" at the "edge of chaos"
+\end_layout
+
+\begin_layout Standard
+-- very hip,
+ fad ideas from the 1980's.
+\end_layout
+
+\begin_layout Standard
+* Let me take a moment to sketch that territory,
+ since it is not very
+\end_layout
+
+\begin_layout Standard
+familiar to mainstream comp sci.
+ An early canonical example was
+\end_layout
+
+\begin_layout Standard
+"critical opalescence" at the triple-point of water:
+ the temp &
+\end_layout
+
+\begin_layout Standard
+pressure where water liquid,
+ gas and ice co-exist at all length
+\end_layout
+
+\begin_layout Standard
+scales,
+ which is why it looks pearly,
+ when you see it.
+ It's a
+\end_layout
+
+\begin_layout Standard
+second-order phase transition.
+ Phil Anderson had a lot to say.
+ Another
+\end_layout
+
+\begin_layout Standard
+physicist,
+ Per Bak,
+ built a simplified model:
+ the "abelian sand pile":
+\end_layout
+
+\begin_layout Standard
+drop grains of sand onto a mound,
+ and it gets taller and taller,
+ and
+\end_layout
+
+\begin_layout Standard
+then collapses,
+ avalanches.
+ The avalanches are of all sizes:
+ many
+\end_layout
+
+\begin_layout Standard
+small ones,
+ a few medium,
+ and rarely,
+ big ones.
+ This is 1/f noise,
+ or
+\end_layout
+
+\begin_layout Standard
+"Zipfian distribution",
+ observed freakin absolutely everywhere in
+\end_layout
+
+\begin_layout Standard
+nature,
+ if you cared to look,
+ and not just in those electronic
+\end_layout
+
+\begin_layout Standard
+circuits that Benoit Mandelbrot was tasked to examine.
+ Per Bak went on
+\end_layout
+
+\begin_layout Standard
+to also create precise mathematical models of various biological
+\end_layout
+
+\begin_layout Standard
+ecosystems.
+ Unfortunately,
+ he made the mistake of publicly calling
+\end_layout
+
+\begin_layout Standard
+biologists "stupid",
+ which did not help his cause.
+\end_layout
+
+\begin_layout Standard
+* There is another branch:
+ the amateur "a-life" (artificial life)
+\end_layout
+
+\begin_layout Standard
+movement of the 1980s,
+ inspired by John Conway's "game of life".
+\end_layout
+
+\begin_layout Standard
+Basically,
+ you plunk down a bunch of cellular automata with some kind
+\end_layout
+
+\begin_layout Standard
+of small-ish set of state transition rules,
+ and then try to evolve
+\end_layout
+
+\begin_layout Standard
+them.
+ Genetically,
+ by applying point mutations to the state transition
+\end_layout
+
+\begin_layout Standard
+rules,
+ or by doing cross-over.
+ Evolution,
+ however,
+ is stunningly slow;
+\end_layout
+
+\begin_layout Standard
+you hit the wall of Kolmogorov complexity,
+ then stop.
+\end_layout
+
+\begin_layout Standard
+* You can plink down the cellular automata on a square grid,
+ or you
+\end_layout
+
+\begin_layout Standard
+can allow them to grow freely,
+ without a grid;
+ they form trees.
+\end_layout
+
+\begin_layout Standard
+Formally,
+ "Lindenmeyer systems" or "L-systems" -- these form not only
+\end_layout
+
+\begin_layout Standard
+trees,
+ but minor rule variations give bushes that grow from the tips,
+\end_layout
+
+\begin_layout Standard
+bushes that grow from the base,
+ flowers that bloom from the bottom up,
+\end_layout
+
+\begin_layout Standard
+bloom from the top down,
+ form leaf shapes wider at the top (gingko),
+\end_layout
+
+\begin_layout Standard
+wider at the bottom (birch/aspen),
+ pointy (elm),
+ many-pointed (maple),
+\end_layout
+
+\begin_layout Standard
+many-pointed-round (oak).
+ Prusinkiewicz invented this field,
+ called
+\end_layout
+
+\begin_layout Standard
+"algorithmic botany" and I have no clue why he is not famous.
+ I am in
+\end_layout
+
+\begin_layout Standard
+awe.
+ His achievement was that one could take *extremely stunningly
+\end_layout
+
+\begin_layout Standard
+simple* purely-digital cellular automata,
+ and recover vast tracts of
+\end_layout
+
+\begin_layout Standard
+botany.
+ If you then couple the purely digital L-systems to a
+\end_layout
+
+\begin_layout Standard
+continuous-valued differential equation (the reaction-diffusion
+\end_layout
+
+\begin_layout Standard
+equation) you explain an even broader tract of botany.
+ And the analogy
+\end_layout
+
+\begin_layout Standard
+is obvious:
+ the cellular automata are DNA,
+ and the reaction-diffusion
+\end_layout
+
+\begin_layout Standard
+diffeq are the proteins/enzymes.
+ Awesome stuff.
+\end_layout
+
+\begin_layout Standard
+* What else?
+ "Membrane computing" ...
+ but I digress.
+\end_layout
+
+\begin_layout Standard
+* A modern champion of this stuff is Micheal Levin,
+ a microbiologist,
+\end_layout
+
+\begin_layout Standard
+who talks of "embodied intelligence",
+ argues that even simple
+\end_layout
+
+\begin_layout Standard
+biological systems are intelligent,
+ and,
+ to help prove his point,
+\end_layout
+
+\begin_layout Standard
+found some simple cellular automata that could be evolved to
+\end_layout
+
+\begin_layout Standard
+automatically discover a sort algorithm (that "almost" works) and is
+\end_layout
+
+\begin_layout Standard
+faster than any other known sort algorithm.
+ For this achievement (and
+\end_layout
+
+\begin_layout Standard
+many others) he has earned a seat at the California Institute for
+\end_layout
+
+\begin_layout Standard
+Machine Consciousness.
+ (CIMC) Along with our pal Joscha Bach.
+ (I
+\end_layout
+
+\begin_layout Standard
+don't believe that either Levin,
+ or Joscha are aware of the work of
+\end_layout
+
+\begin_layout Standard
+Prusinkiewicz,
+ or Per Bak,
+ or even Phil Anderson,
+ for that matter,
+ but
+\end_layout
+
+\begin_layout Standard
+since that work is now 30 to 60 years old,
+ maybe it doesn't much
+\end_layout
+
+\begin_layout Standard
+matter?) I did write a letter to the CIMC,
+ but they yawned and replied
+\end_layout
+
+\begin_layout Standard
+thanks but no thanks.
+ Oh well.
+\end_layout
+
+\begin_layout Standard
+* OK,
+ so the above six bullets provide a sketch of prior art at the
+\end_layout
+
+\begin_layout Standard
+intersection of dynamical systems,
+ computation and biology.
+\end_layout
+
+\begin_layout Standard
+"self-organized criticality" is at the center of it,
+ and it's also
+\end_layout
+
+\begin_layout Standard
+seen in economics (prisoner's dilemma game,
+ corporate organizations,
+\end_layout
+
+\begin_layout Standard
+mergers,
+ acquisitions,
+ marketplace theories...) and there's also
+\end_layout
+
+\begin_layout Standard
+something called "experimental philosophy",
+ having to do with
+\end_layout
+
+\begin_layout Standard
+multi-player game-theoretic network representations of ..
+ logical
+\end_layout
+
+\begin_layout Standard
+inferences,
+ or something.
+ I don't recall.
+ Anyway,
+ this is a generic
+\end_layout
+
+\begin_layout Standard
+recurring blob of ideas having to do with "life,
+ consciousness,
+\end_layout
+
+\begin_layout Standard
+thinking,
+ reasoning and all that" and,
+ for whatever reason,
+ the
+\end_layout
+
+\begin_layout Standard
+traditional,
+ conventional compsci,
+ AI,
+ AGI,
+ LLM crowd is blissfully
+\end_layout
+
+\begin_layout Standard
+unaware of it.
+ Not sure why.
+ Ben would yawn in disinterest.
+ Perhaps I
+\end_layout
+
+\begin_layout Standard
+explained it wrong,
+ perhaps it's his ADHD.
+\end_layout
+
+\begin_layout Standard
+* So the AtomSpace,
+ and Atomese,
+ is really meant to be a
+\end_layout
+
+\begin_layout Standard
+one-size-fits-all computational infrastructure capable of
+\end_layout
+
+\begin_layout Standard
+representing,
+ emulating,
+ providing the Petri dish for any and all
+\end_layout
+
+\begin_layout Standard
+embodiments of the above sort.
+ So to get back to your initial remark:
+\end_layout
+
+\begin_layout Standard
+"parallelizing the Atomspace" is an interesting and worthy effort,
+ but
+\end_layout
+
+\begin_layout Standard
+it pales in the vastness of the above landscape.
+ My goal is to work
+\end_layout
+
+\begin_layout Standard
+on *all* of the above topics,
+ "at the same time".
+ Piddly-dinking some
+\end_layout
+
+\begin_layout Standard
+c++ code to maybe run on GPU's,
+ or not,
+ is very nearly a pointless
+\end_layout
+
+\begin_layout Standard
+distraction.
+ It's worthy,
+ but it's off in the periphery.
+\end_layout
+
+\begin_layout Standard
+* I do have some nagging self-doubts.
+ For example,
+ if you want to play
+\end_layout
+
+\begin_layout Standard
+prisoner's dilemma on a network,
+ just ask Claude to write that code
+\end_layout
+
+\begin_layout Standard
+for you.
+ Want an abelian sand-pile?
+ Ask Claude to implement it.
+ Need a
+\end_layout
+
+\begin_layout Standard
+game-theoretic model of corporate takeovers?
+ Ask Claude.
+ Pricing
+\end_layout
+
+\begin_layout Standard
+competition between gas stations?
+ Ask Claude.
+ A probabilistic theorem
+\end_layout
+
+\begin_layout Standard
+prover?
+ Ask Claude.
+ Mashup of Ising model,
+ Markov logic,
+ using pytorch
+\end_layout
+
+\begin_layout Standard
+transformers?
+ Ask Claude ...
+ WTF do you need the AtomSpace for,
+ for
+\end_layout
+
+\begin_layout Standard
+any of these things?
+ We have built our world,
+ the human world,
+ out of
+\end_layout
+
+\begin_layout Standard
+highly specialized,
+ highly engineered complex systems that
+\end_layout
+
+\begin_layout Standard
+interoperate thanks to millions of man-years of engineering,
+ and my
+\end_layout
+
+\begin_layout Standard
+vague imagining of the AtomSpace (or Atomese) as some one-size-fits
+\end_layout
+
+\begin_layout Standard
+all re-invention of the very fabric of computing is perhaps insane...
+\end_layout
+
+\begin_layout Standard
+* And yet,
+ whenever I ask Claude to do something ...
+ man o man,
+ Claude
+\end_layout
+
+\begin_layout Standard
+is a wonderful labor saving device,
+ I am 10x more productive writing
+\end_layout
+
+\begin_layout Standard
+code;
+ But also Claude is dumb as a rock.
+ It has zero understanding
+\end_layout
+
+\begin_layout Standard
+whatsoever of "what's going on".
+ It entirely lacks any concept of
+\end_layout
+
+\begin_layout Standard
+what anything is,
+ what it does,
+ why it's there or how it works.
+ It is
+\end_layout
+
+\begin_layout Standard
+just clueless.
+ And so,
+ I can justify my urge to do basic comp-sci
+\end_layout
+
+\begin_layout Standard
+research on life,
+ thinking,
+ perception,
+ memory,
+ action,
+ manipulation
+\end_layout
+
+\begin_layout Standard
+and movement:
+ the stuff of consciousness and intelligence because it's
+\end_layout
+
+\begin_layout Standard
+clearly unsolved,
+ and nothing else out there comes even remotely close
+\end_layout
+
+\begin_layout Standard
+to what I can do with Atomese...
+\end_layout
+
+\begin_layout Standard
+====
+\end_layout
+
+\begin_layout Standard
+I have several other overlapping projects that tie into the above.
+\end_layout
+
+\begin_layout Standard
+* I'm a bit stalled with the sheaf representation.
+ It's easy when it's
+\end_layout
+
+\begin_layout Standard
+link grammar;
+ it's hard when it's generic atomese.
+ It's annoyingly
+\end_layout
+
+\begin_layout Standard
+verbose.
+ Assembling jigsaws is easy to say but hard to do.
+\end_layout
+
+\begin_layout Standard
+* The plan to rewrite the counting code to be truly generic remains
+\end_layout
+
+\begin_layout Standard
+stalled.
+ I did create much or most of the needed infrastructure as
+\end_layout
+
+\begin_layout Standard
+"pure Atomese" demos (in various example files) that can count
+\end_layout
+
+\begin_layout Standard
+(increment counts),
+ compute MI,
+ cosines,
+ sort arrays,
+ but have gotten
+\end_layout
+
+\begin_layout Standard
+stuck with the file system crawler.
+\end_layout
+
+\begin_layout Standard
+* The problem with the file-system crawler is this.
+ I want to get away
+\end_layout
+
+\begin_layout Standard
+from batch processing;
+ the pie-in-the-sky idea is that the crawler can
+\end_layout
+
+\begin_layout Standard
+walk the file system and find what is there,
+ process this or that
+\end_layout
+
+\begin_layout Standard
+file,
+ move on to the next one,
+ or maybe return for a second look,
+\end_layout
+
+\begin_layout Standard
+reprocess again,
+ but this time with the MST parser instead of the
+\end_layout
+
+\begin_layout Standard
+token counter,
+ etc.
+ Wonderful.
+ Great.
+ And I do have an Atomese file
+\end_layout
+
+\begin_layout Standard
+and file-system object.
+ I have,
+ in fact,
+ created a "world model" of an
+\end_layout
+
+\begin_layout Standard
+"external" file system,
+ it now exists as a graph with half-a-million
+\end_layout
+
+\begin_layout Standard
+Atoms in my AtomSpace.
+ Great.
+ Now what?
+ How do I "perceive" that
+\end_layout
+
+\begin_layout Standard
+structure?
+ How do I "move" through it?
+ Or rather,
+ out of what thin air
+\end_layout
+
+\begin_layout Standard
+does the agent appear,
+ that knows how to walk a file system?
+ Of
+\end_layout
+
+\begin_layout Standard
+course,
+ it has to bootstrap,
+ I guess.
+\end_layout
+
+\begin_layout Standard
+* My (file-system-walking) agent is written in Atomese.
+ (I also have a
+\end_layout
+
+\begin_layout Standard
+"counting agent" and a prototype cosine-dot-product agent,
+ and some
+\end_layout
+
+\begin_layout Standard
+others:
+ they're being bootstrapped.)
+\end_layout
+
+\begin_layout Standard
+* "Pure Atomese",
+ so it can be mutated.
+ But this hits two stumbling
+\end_layout
+
+\begin_layout Standard
+blocks:
+ there is no sheaf-theoretical,
+ jigsaw assembly description of
+\end_layout
+
+\begin_layout Standard
+these agents.
+ Yes,
+ they are "pure atomese",
+ but they are not yet
+\end_layout
+
+\begin_layout Standard
+composed of jigsaws.
+ In particular,
+ I am not sure how to connect the
+\end_layout
+
+\begin_layout Standard
+dots:
+ to move from jigsaws (which are effectively proof-theoretic
+\end_layout
+
+\begin_layout Standard
+inference rules and axioms) jump through currey-howard,
+ and arrive at
+\end_layout
+
+\begin_layout Standard
+an algorithm that can compute e.g.
+ the dot-product of two vectors.
+\end_layout
+
+\begin_layout Standard
+* So,
+ again,
+ you can see why I am not all that interested in
+\end_layout
+
+\begin_layout Standard
+"parallelizing the AtomSpace";
+ I am interested in providing a
+\end_layout
+
+\begin_layout Standard
+sheaf-theoretic description of a dot product.
+ Sheaf theoretic,
+ so
+\end_layout
+
+\begin_layout Standard
+that it can be assembled,
+ dis-assembled,
+ reassembled,
+ mutated,
+ and
+\end_layout
+
+\begin_layout Standard
+moved about.
+ *If* I could do that,
+ then maybe I would have
+\end_layout
+
+\begin_layout Standard
+infrastructure capable of bootstrapping into more complex agentic
+\end_layout
+
+\begin_layout Standard
+systems.
+ But this remains just barely within reach.
+\end_layout
+
+\begin_layout Standard
+* Thus:
+ there's a chicken-and-egg problem.
+ I have filesystem data in
+\end_layout
+
+\begin_layout Standard
+the Atomspace.
+ I can ingest it.
+ But I can't yet perceive it,
+ because I
+\end_layout
+
+\begin_layout Standard
+do not have a perceptual mechanism for it.
+\end_layout
+
+\begin_layout Standard
+* I do have strong positive results from 3 or 4 or 5 years ago now (or
+\end_layout
+
+\begin_layout Standard
+more ..
+ lord how time flies) The basic learn algo works great,
+ it
+\end_layout
+
+\begin_layout Standard
+reproduces the old Word2Vec style results,
+ or GloVE style,
+ or even
+\end_layout
+
+\begin_layout Standard
+simple basic transformer-ish results;
+ it works.
+ It's fine.
+ It's not
+\end_layout
+
+\begin_layout Standard
+perfect,
+ but it's OK,
+ it's good enough.
+ And I know exactly how to
+\end_layout
+
+\begin_layout Standard
+generalize it for sound,
+ video,
+ I think I know how to generalize it to
+\end_layout
+
+\begin_layout Standard
+abstract domains,
+ like electronic circuit diagrams ...
+ and maybe,
+ just
+\end_layout
+
+\begin_layout Standard
+maybe,
+ to ...
+ file system crawl results.
+ But I just don't have the
+\end_layout
+
+\begin_layout Standard
+generic framework for this.
+\end_layout
+
+\begin_layout Standard
+* Last summer,
+ I talked to you about being able to perceive
+\end_layout
+
+\begin_layout Standard
+"mathematical axioms" and "structures" -- that's still the case,
+ still
+\end_layout
+
+\begin_layout Standard
+the plan.
+ The quest to "perceive file systems",
+ and "perceive
+\end_layout
+
+\begin_layout Standard
+electronic circuits" and "perceive sound,
+ photos" all of these being
+\end_layout
+
+\begin_layout Standard
+special cases.
+ I'm just stuck trying to bootstrap it.
+\end_layout
+
+\begin_layout Standard
+And using Claude to build that framework is like ...
+ dragging a mule
+\end_layout
+
+\begin_layout Standard
+laden with bags of salt through a rapidly flowing creek while cajoling
+\end_layout
+
+\begin_layout Standard
+a 5 year old toddler throwing a temper tantrum.
+ So I'm pretty well
+\end_layout
+
+\begin_layout Standard
+hosed on my research project.
+\end_layout
+
+\begin_layout Standard
+So now you see where I am trying to go with this.
+\end_layout
+
+\begin_layout Standard
+-- Linas
+\end_layout
+
+\begin_layout Standard
+-- 
+\end_layout
+
+\begin_layout Standard
+Patrick:
+ Are they laughing at us?
+\end_layout
+
+\begin_layout Standard
+Sponge Bob:
+ No,
+ Patrick,
+ they are laughing next to us.
+\end_layout
+
+\begin_layout Standard
+Linas Vepstas
+\end_layout
+
+\begin_layout Standard
+3:31 AM (0 minutes ago)
+\end_layout
+
+\begin_layout Standard
+to Adam
+\end_layout
+
+\begin_layout Standard
+I'm re-reading,
+ proof-reading:
+ L-systems are very highly
+\end_layout
+
+\begin_layout Standard
+parallelizable:
+ they are,
+ by definition,
+ parallel.
+ --linas
+\end_layout
+
 \begin_layout Section*
 The End
 \end_layout
