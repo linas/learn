@@ -11918,7 +11918,11 @@ Being who I am,
  Instead,
  I am at the confluence of 5 or 6 different ideas,
  trying to push all of them at the same time.
- They are:
+ 
+\end_layout
+
+\begin_layout Standard
+They are:
 \end_layout
 
 \begin_layout Itemize
@@ -12061,11 +12065,11 @@ Let me take a moment to sketch that territory,
  and rarely,
  big ones.
  This is 1/f noise,
- or"Zipfian distribution",
+ or "Zipfian distribution",
  observed freakin absolutely everywhere in nature,
  if you cared to look,
  and not just in those electronic circuits that Benoit Mandelbrot was tasked to examine.
- Per Bak went onto also create precise mathematical models of various biological ecosystems.
+ Per Bak went on to also create precise mathematical models of various biological ecosystems.
  Unfortunately,
  he made the mistake of publicly calling biologists "stupid",
  which did not help his cause.
@@ -12073,8 +12077,9 @@ Let me take a moment to sketch that territory,
 
 \begin_layout Itemize
 There is another branch:
- the amateur "a–life" (artificial life)movement of the 1980s,
- inspired by John Conway's "game of life".Basically,
+ the amateur "a–life" (artificial life) movement of the 1980s,
+ inspired by John Conway's "game of life".
+ Basically,
  you plunk down a bunch of cellular automata with some kind of small–ish set of state transition rules,
  and then try to evolve them.
  Genetically,
@@ -12093,7 +12098,8 @@ You can plink down the cellular automata on a square grid,
  they form trees.Formally,
  "Lindenmeyer systems" or "L–systems" —
  these form not only trees,
- but minor rule variations give bushes that grow from the tips,bushes that grow from the base,
+ but minor rule variations give bushes that grow from the tips,
+ bushes that grow from the base,
  flowers that bloom from the bottom up,bloom from the top down,
  form leaf shapes wider at the top (gingko),wider at the bottom (birch/aspen),
  pointy (elm),
@@ -12127,7 +12133,8 @@ A modern champion of this stuff is Micheal Levin,
  who talks of "embodied intelligence",
  argues that even simple biological systems are intelligent,
  and,
- to help prove his point,found some simple cellular automata that could be evolved to automatically discover a sort algorithm (that "almost" works) and is faster than any other known sort algorithm.
+ to help prove his point,
+ found some simple cellular automata that could be evolved to automatically discover a sort algorithm (that "almost" works) and is faster than any other known sort algorithm.
  For this achievement (and many others) he has earned a seat at the California Institute for Machine Consciousness.
  (CIMC) Along with our pal Joscha Bach.
  (I don't believe that either Levin,
@@ -12261,7 +12268,7 @@ The plan to rewrite the counting code to be truly generic remains stalled.
 The problem with the file–system crawler is this.
  I want to get away from batch processing;
  the pie–in–the–sky idea is that the crawler can walk the file system and find what is there,
- process this or tha tfile,
+ process this or that file,
  move on to the next one,
  or maybe return for a second look,reprocess again,
  but this time with the MST parser instead of the token counter,
@@ -12303,7 +12310,7 @@ My (file–system–walking) agent is written in Atomese.
  but they are not yet composed of jigsaws.
  In particular,
  I am not sure how to connect the dots:
- to move from jigsaws (which are effectively proof-theoretic inference rules and axioms) jump through Curry–Howard,
+ to move from jigsaws (which are effectively proof–theoretic inference rules and axioms) jump through Curry–Howard,
  and arrive at an algorithm that can compute e.g.
  the dot–product of two vectors.
 \end_layout
