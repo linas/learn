@@ -12338,7 +12338,7 @@ If
 \begin_layout Itemize
 Thus:
  there's a chicken–and–egg problem.
- I have filesystem data in the Atomspace.
+ I have filesystem data in the AtomSpace.
  I can ingest it.
  But I can't yet perceive it,
  because I do not have a perceptual mechanism for it.
@@ -12394,6 +12394,128 @@ I'm re–reading,
  they are,
  by definition,
  parallel.
+\end_layout
+
+\begin_layout Subsection*
+15 Feb 2026
+\end_layout
+
+\begin_layout Standard
+Well,
+ again,
+ I've been procrastinating on this.
+\end_layout
+
+\begin_layout Standard
+What is understanding really?
+ Its clear that LLM's 
+\begin_inset Quotes eld
+\end_inset
+
+know everything,
+ understand nothing.
+\begin_inset Quotes erd
+\end_inset
+
+ There are many functional definitions of 
+\begin_inset Quotes eld
+\end_inset
+
+understanding
+\begin_inset Quotes erd
+\end_inset
+
+,
+ so what is it that we actually do,
+ as humans?
+ My working hypothesis is that we're shape rotators;
+ that we perceive structure and operate on structure.
+ This hypothesis has been the driver,
+ motivator of my research of the past ten years.
+ And yet,
+ it feels incomplete.
+ It seems tied with 
+\begin_inset Quotes eld
+\end_inset
+
+what is thinking?
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Quotes eld
+\end_inset
+
+how does thinking interact with memory?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+To stay grounded,
+ lets work through the following example.
+ I want to use LLM's,
+ and specifically,
+ ollama,
+ say qwen3:8b,
+ as a user interface.
+ To do this,
+ I need to create an API between ollama and whatever system I am contemplating.
+ The API appears to be the embedding:
+ for qwen3:8b is 4K floats (apparently qwen3:4b is 2K floats and qwen3-0.6b is 1K floats).
+ So one mode of 
+\begin_inset Quotes eld
+\end_inset
+
+thinking
+\begin_inset Quotes erd
+\end_inset
+
+ is RAG,
+ Retrieval Augmented Generation.
+ For each ingested text,
+ get out one vector.
+ This vector is not just an index to the text,
+ but also encodes text similarity.
+\end_layout
+
+\begin_layout Standard
+What are the different modes of 
+\begin_inset Quotes eld
+\end_inset
+
+thinking
+\begin_inset Quotes erd
+\end_inset
+
+ that are possible in such a system?
+ Well,
+ one is to generate a random vector,
+ find the cosine–nearest,
+ load that text into ollama,
+ let it spew a some sentences.
+ Use those sentences to generate another vector,
+ then find the nearest–neighbor to that vector,
+ and repeat.
+\end_layout
+
+\begin_layout Standard
+Well I was going to write a lot more then I got distracted.
+ At any rate,
+ doing this is a dynamical system.
+ It gets interesting if it can be forked and e.g.
+ forced to attempt logical inference via multiple different vectors,
+ thought streams,
+ with one of them enumerating possibilities:
+ what if I do this,
+ what if I do that ...to attempt to follow a chain of thought.
+\end_layout
+
+\begin_layout Standard
+Lets say I have 100K texts.
+ 
 \end_layout
 
 \begin_layout Section*
