@@ -3244,7 +3244,7 @@ everywhere in the universe
 \begin_inset Quotes erd
 \end_inset
 
-) and a reference for time (when the deionization occurred,) albeit we have a problem if it did not happen at the instant of the birth of the universe.
+) and a reference for time (when the deionization occurred) albeit we have a problem if it did not happen at the instant of the birth of the universe.
  Unless we start doing cosmology or something,
  and talk about temperatures.
  And maybe that is the legitimate way of breaking out of the paradox.
@@ -3931,6 +3931,337 @@ smaller than
  All this is as close as I've gotten to a break–through on these issues.
  It might not work,
  but for now seems like a reasonable direction to try.
+\end_layout
+
+\begin_layout Subsection*
+17 Feb 2026
+\end_layout
+
+\begin_layout Standard
+A very minor thought experiment that has been nagging me.
+\end_layout
+
+\begin_layout Standard
+This is a reprise of what I wrote 27 January,
+ above.
+ This time,
+ with a slight variant:
+ gas in a box.
+ Now,
+ best as I understand it,
+ a hard–sphere gas of infinitely small spheres has to obey the Maxwell–Boltzmann distribution,
+ and the basis functions for the corresponding Hamiltonian can be expressed in many ways,
+ but a set of space–filling fractals is one very good way of doing this.
+ I have long and unsuccessfully attempted to find the paper(s) that reported these results;
+ they are from 20 years ago.
+ I would ask Claude for details right now,
+ but the internet is down.
+ This is something I can almost calculate myself,
+ from scratch,
+ but being lazy and error–prone and slow,
+ looking up current results would give me a jump–start.
+\end_layout
+
+\begin_layout Standard
+So,
+ anyway,
+ in this picture,
+ I have wave functions that are naturally space–filling:
+ its gas–in–a–box,
+ after all,
+ and thus position–less.
+ This is a generalized Heisenberg uncertainty,
+ of sorts:
+ I can't tell where the molecules are,
+ just that they are somewhere in the box.
+ If I imagine some are ionized,
+ so its a plasma,
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+location
+\begin_inset Quotes erd
+\end_inset
+
+ of photon emission,
+ absorption is also indeterminate.
+\end_layout
+
+\begin_layout Standard
+My current mental model is a Cartesian product:
+ Schrodinger eqn for a single hydrogen atom times the fractal gas–in–a–box wavefunction.
+ Well,
+ I guess its not a Cartesian product,
+ it would have to be a tensor product.
+ And I guess that if I have N particles in the box,
+ than I have to have N products.
+ Since these are identical particles,
+ do I divide by N–factorial!?
+ Well,
+ yes,
+ of course.
+\end_layout
+
+\begin_layout Standard
+The question I want to get to is 
+\begin_inset Quotes eld
+\end_inset
+
+how do I know where anything is?
+\begin_inset Quotes erd
+\end_inset
+
+ When I had a single proton and a single electron,
+ they had independent positions,
+ but these are unknowable,
+ a la Heisenberg;
+ they are some uniform distribution.
+ When the hydrogen atom forms,
+ the two are now bound together,
+ in a bound–state,
+ co–occurring within some angstroms of one–another.
+ I still don't know where the hydrogen atom is,
+ it is uniformly distributed everywhere.
+ Part of this bound state is the light–cone of the emitted photon;
+ conventionally ignored,
+ but the correct mental picture of a hydrogen atom needs to be not only the proton and electron,
+ but also the emitted photons;
+ the whole collection is co–located and form the atom.
+\end_layout
+
+\begin_layout Standard
+The issue is that this is not how I experience the classical world of rocks and rivers and animals.
+ So what further localizes atoms?
+ Well,
+ I can imagine my gas–in–a–box and some van der Waals force between atoms,
+ and drop the temperature,
+ and condensation appears.
+ Where is the physical location of that condensation?
+ Without gravity,
+ and assuming the box walls are not sticky,
+ then the condensation has to be spontaneous and it has to be everywhere.
+ If I imagine a triple–point,
+ then I can imagine critical opalescence.
+ If I imagine a first–order phase transition,
+ then there is an absence of nucleation points,
+ and one then has superheated,
+ supercooled states.
+ I do not understand the mechanics of spontaneous transitions.
+\end_layout
+
+\begin_layout Standard
+That is,
+ droplets of liquid have to condense out of the gas,
+ and when these droplets of liquid have more than some millions of atoms,
+ they behave as the classical objects.
+ The atoms are all co–located.
+ The classical–ness arises because relevant quantities are now much larger than h–bar.
+ The co–location is not dissimilar from the formation of the hydrogen atom:
+ things that travel together.
+ In the thought experiment,
+ I cannot cool the walls of the box;
+ so the only cooling has to be radiative,
+ and the only radiative cooling possible has to be some very weak microwave emissions from the dipole displacement of the electron cloud during atomic collisions.
+ At any rate,
+ this all starts to feel very cosmological,
+ just without gravity.
+\end_layout
+
+\begin_layout Standard
+And here I bonk,
+ again.
+ This is some translationally–invariant model of space,
+ and since time is indeterminate,
+ then its translationally invariant in time.
+ (and thus conservation of energy,
+ yada yada.) The formation of the hydrogen atom as a bound state is an event in space–time,
+ but,
+ due to invariance,
+ it cannot be localized with respect to anything,
+ not without Mach's principle.
+ I don't know if this is shallow or deep.
+ The Newtonian universe has no distinguished origin,
+ so I cannot state where this atom formed with respect to such an origin.
+\end_layout
+
+\begin_layout Standard
+However,
+ if two atoms form,
+ then appeals to 
+\begin_inset Quotes eld
+\end_inset
+
+common sense
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+intuition
+\begin_inset Quotes erd
+\end_inset
+
+ suggest that they must have some relative ordering in time,
+ and some specific spatial separation.
+ Is there any truth to this idea?
+ Without some external observer of the emitted photons,
+ there seems to be no particular way to make the photon wave functions collapse,
+ and therefore to localize them,
+ spatially or time–wise.
+ The formation of each bound state remains indeterminate;
+ they could happen seconds apart or millions of years apart,
+ and there seems to be no way of establishing the metric distance between these events.
+ That is,
+ the events are happening everywhere,
+ at any time:
+ they are events but are not localizable,
+ because we have to take a modulo of space and time.
+ Modulo means quotient space.
+ The formation of each hydrogen atom is independent,
+ each is in it's own quotient space.
+\end_layout
+
+\begin_layout Standard
+Two directions to go in here.
+ One is to ask 
+\begin_inset Quotes eld
+\end_inset
+
+what do we mean by quotient space?
+\begin_inset Quotes erd
+\end_inset
+
+ So,
+ Euclidean space,
+ modulo translation invariance,
+ what is that?
+ Well,
+ I guess its just 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+ as the only other plausible argument would be to say its 
+\begin_inset Formula $\mathbb{R}^{3}=\mathbb{R}^{3}\times\mathbb{R}^{3}\mod{\mathbb{R}^{3}}$
+\end_inset
+
+ where the second 
+\begin_inset Formula $\mathbb{R}^{3}$
+\end_inset
+
+ is the location of the origin of the coordinate system against which all other measurements are made.
+ So this is a rather circular tail–chasing,
+ if there is one event only.
+ That is,
+ if there is only one hydrogen atom that forms,
+ ever,
+ then it is by definition located at the origin,
+ and the modulo operation removes any ambiguity as to 
+\begin_inset Quotes eld
+\end_inset
+
+where it is in spacetime
+\begin_inset Quotes erd
+\end_inset
+
+,
+ it can only ever be in one location ever:
+ the origin.
+ This solves the Mach problem:
+ there are no fixed stars at infinity,
+ no external observers defining a reference frame.
+ The assumption of translational invariance forces the use of a modulo quotient space that necessarily locates the one and only event at the origin.
+ There is no other location at which it could be,
+ because there is nowhere with respect to which we could measure the location.
+\end_layout
+
+\begin_layout Standard
+So is that the complete solution for a single hydrogen atom?
+ I think so.
+ What if there are two hydrogen atoms?
+ If they are time–like or space–like separated,
+ then they are effectively non–interacting,
+ and may as well live in two disjoint universes.
+ That is,
+ if neither is in the future/past light–cone of the other,
+ there is no way for them to interact.
+ This is somewhat subtle,
+ though;
+ one would have to take off–shell amplitudes into account.
+ And then,
+ if we do that,
+ then we open the can of worms that is the vacuum.
+ 
+\end_layout
+
+\begin_layout Standard
+That is,
+ the interesting case seems to be the one where an existing hydrogen atom is in the future light cone of the atom that is forming,
+ so that the photon emitted in the formation event can ionize the existing atom.
+ The explicitly binds the two events together.
+ The separation must be on–shell,
+ or or less;
+ otherwise the binding falls off.
+ The awkward question then becomes 
+\begin_inset Quotes eld
+\end_inset
+
+is there a wave–function collapse,
+ or not?
+\begin_inset Quotes erd
+\end_inset
+
+ That is,
+ when one hydrogen atom forms,
+ it emits a photon.
+ This photon has the form of a wave–function with non–zero amplitude tightly confined to being near it's future light–cone.
+ Other than that,
+ it is 
+\begin_inset Quotes eld
+\end_inset
+
+everywhere
+\begin_inset Quotes erd
+\end_inset
+
+ in that light cone.
+ So,
+ if there is some other hydrogen atom somewhere in that light cone,
+ what are the chances it gets ionized?
+ I.E.
+ what are the chances that the photon is absorbed?
+ I.E.
+ what are the chances that the wave function collapses?
+ The conventional answer is the cross–section divided by distance–squared.
+ However,
+ I'm struggling to compute distances in the absence of some kind of Mach fixed stars or external observers.
+\end_layout
+
+\begin_layout Standard
+What can we legally infer?
+ The naive take would be to say that the earlier event emits a photon with 100% probability,
+ while the later event absorbs that photon in proportion to cross–section divided by distance–squared.
+ But if we have T–symmetry,
+ then we cannot tell apart future from past,
+ right?
+ It would sound crazy to say that the future event absorbed the photon with 100% probability,
+ but the past event emitted it with only cross–section/distance–squared probability.
+ Common sense classical experiential reasoning says that such statements would be insane.
+ Systems such as the two state–vector formalism provide a way of tracking both forward and backwards–time events.
+\end_layout
+
+\begin_layout Standard
+The only resolution to this paradox that I can think of is the one I already have in my hands:
+ the conception of here–and–now.
+ That is,
+ both events are in the here–and–now,
+ since,
+ in that conception,
+ here–and–now is nothing other than a symmetrized(??) light–cone,
+ and everything near that lightcone is in the same here–and–now.
+ 
 \end_layout
 
 \begin_layout Section*
