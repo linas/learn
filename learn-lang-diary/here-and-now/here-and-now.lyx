@@ -4269,7 +4269,7 @@ The obvious issue with this conception of here–and–now is causality.
  Thus,
  the formation of a hydrogen atom in the past resulted in the emission of a photon that causes an existing hydrogen atom to ionize,
  somewhere in the future.
- But then we have three subserviant issues:
+ But then we have three subservient issues:
  T–symmetry,
  entanglement,
  and null distances.
@@ -4324,6 +4324,140 @@ OK,
  Since the electrons are charged,
  the spinors are necessarily Dirac spinors;
  they cannot be Weyl spinors.
+ By convention,
+ first quantization of free electrons is done with plane waves.
+ Here,
+ we have two relativistic coupled hydrogen atoms.
+ We need calculations only to tree order.
+ Is there some reasonably simple all–in–one basis representation for this?
+ Something in the (xxBorn?
+ xx) approximation,
+ where the protons are classical and stationary?
+\end_layout
+
+\begin_layout Standard
+Again there is intuitive violence.
+ I'm imagining one hydrogen atom in a galaxy a billion light–years away.
+ But there are no galaxies and no observers.
+ Still,
+ if you could be an observer,
+ you might say something like 
+\begin_inset Quotes eld
+\end_inset
+
+I'm in orbit around this star,
+ and this star has emitted some photon;
+ Bye–bye photon,
+ for I am in the here–and–now,
+ and perhaps a billion years hence,
+ something will interact with that photon.
+\begin_inset Quotes erd
+\end_inset
+
+ But some other observer (and it can't be me;
+ not enough time to travel.) a billion years in the future captures that photon,
+ and says 
+\begin_inset Quotes eld
+\end_inset
+
+hello photon,
+ from far far away
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Yet angular momentum conservation rules mean that the two electrons are necessarily 
+\begin_inset Quotes eld
+\end_inset
+
+entangled
+\begin_inset Quotes erd
+\end_inset
+
+.
+ I'm putting scare quotes on 
+\begin_inset Quotes eld
+\end_inset
+
+entangled
+\begin_inset Quotes erd
+\end_inset
+
+,
+ because I don't yet have a formal expression for the two relativistic hydrogen atoms.
+ But clearly,
+ as they are coupled,
+ and we're working to tree order,
+ ignoring the vacuum,
+ etc.
+ the basis wave functions will necessarily entangle appropriately,
+ via the photon.
+ There are some degrees of freedom,
+ but not all.
+\end_layout
+
+\begin_layout Standard
+And so that is the measurement problem:
+ if there was some observer in the future,
+ performing some measurement on the future atom,
+ say,
+ its spin in some Stern–Gerlach experiment (say it was a sodium atom ..
+ whatever) that spin measurement forces some kind of collapse at the billion–year light–like separated photon emitter,
+ causing some corresponding wave–function collapse there.
+ So there's this backwards–time–travelling influence from the future precisely as needed by entanglement.
+ It carries no information.
+ And since the observer at that distant galaxy is rushing forward into the future,
+ that collapse is necessarily in the past of that observer.
+ What might that observer have measured?
+\end_layout
+
+\begin_layout Standard
+In the simplified version,
+ there are no observers,
+ and no measurements.
+ There is a simultenaity,
+ defined by the Hilbert basis for the two coupled hydrogen atoms.
+ The coupling means that this space is a subspace,
+ a quotient space,
+ of the Cartesian product of two completely independent hydrogen atoms.
+ It would be nice to have a formula here,
+ so that less hand–waving would be required.
+ Again,
+ I'd cheat with Claude,
+ but the internet is still down...
+ Maybe just as well – it the internet was up,
+ I'd still be working on gas–in–a–box.
+\end_layout
+
+\begin_layout Standard
+Well,
+ so what does this mean?
+ With two atoms,
+ I have a simultenaity.
+ There's some past,
+ then there is a present,
+ where the exchange of a photon takes place,
+ then there is future.
+ Nothing happened in the past,
+ nothing can happen in the future ...
+ except for an exchange of a photon going the other way?
+ Well,
+ if that happens,
+ then its not tree–order,
+ any more,
+ its now got loops,
+ and therefor an infinite number of loops.
+ Now,
+ if these two atoms where something–something nanometers apart,
+ then it would be a bound dihydrogen in some vibrational mode.
+ But since they are a billion years apart ...
+ what if they were millimeters apart?
+ in that case,
+ an argument could be made that they are bound,
+ but in some extremely high vibrational state,
+ N=a million,
+ and energy in nano–electron–volts (or whatever the correct numbers are for a few millimeters separation.) So I can't really do renormaliztion–theory loop calculations if what I am calculating are vibrational states;
+ a different algebraic regime applies.
 \end_layout
 
 \begin_layout Section*
