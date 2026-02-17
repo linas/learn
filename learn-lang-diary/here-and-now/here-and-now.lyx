@@ -4261,7 +4261,69 @@ The only resolution to this paradox that I can think of is the one I already hav
  in that conception,
  here–and–now is nothing other than a symmetrized(??) light–cone,
  and everything near that lightcone is in the same here–and–now.
+\end_layout
+
+\begin_layout Standard
+The obvious issue with this conception of here–and–now is causality.
+ One wishes to say that past events cause future events.
+ Thus,
+ the formation of a hydrogen atom in the past resulted in the emission of a photon that causes an existing hydrogen atom to ionize,
+ somewhere in the future.
+ But then we have three subserviant issues:
+ T–symmetry,
+ entanglement,
+ and null distances.
+ Entanglement seems to be the most technically arcane:
+ it appears to require the conception of photon polarization,
+ and electron spin,
+ so that the only allowed transitions are the ones where the angular momentum adds up correctly:
+ viz,
+ entanglement at the level that any transitions that violate angular momentum conservation are prohibited,
+ and so the only observable 
+\begin_inset Quotes eld
+\end_inset
+
+state collapses
+\begin_inset Quotes erd
+\end_inset
+
+ are the ones that are consistent with this conservation.
+ The algebra for this is challenging,
+ at least,
+ if we want to stick in this minimalist framework;
+ thus I put of the algebra until sometime later.
+ The non–locality is not a problem,
+ since the algebra is happening in a Hilbert space,
+ and that Hilbert space is not located in space or time;
+ it is a Cartesian product with space and time.
+ I guess;
+ rights?
+ Its not some fiber product.
+ Or is it?
  
+\end_layout
+
+\begin_layout Standard
+If its some fiber product,
+ then each section has to be twice–differentiable,
+ so that the action is finite.
+ Well,
+ I guess the photons have to be a U(1) bundle,
+ and the electrons have to be a spinor bundle,
+ and so my Hilbert space is on the product of these bundles.
+\end_layout
+
+\begin_layout Standard
+OK,
+ so this is worth taking a detour.
+ First,
+ we construct some classical U(1) bundles and spinor bundles.
+ Enough for the two electrons,
+ ignore the spin of the protons;
+ assume these are scalars.
+ Since the electrons are charged,
+ the spinors are necessarily Dirac spinors;
+ they cannot be Weyl spinors.
 \end_layout
 
 \begin_layout Section*
