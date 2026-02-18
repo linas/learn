@@ -4415,7 +4415,7 @@ And so that is the measurement problem:
 In the simplified version,
  there are no observers,
  and no measurements.
- There is a simultenaity,
+ There is a simultanaity,
  defined by the Hilbert basis for the two coupled hydrogen atoms.
  The coupling means that this space is a subspace,
  a quotient space,
@@ -4489,7 +4489,75 @@ Well,
 \end_layout
 
 \begin_layout Standard
-Taking a break ...
+What can we conclude from this thought experiment?
+ The two protons,
+ if they are in a bound state,
+ are effectively in the same lab frame,
+ whatever their spatial separation.
+ There appear to be photons radiated to infinity,
+ and this is somehow unavoidable in this particular model.
+ By inappropriate invocation of a Cauchy horizon at infinity,
+ we don't know what happens there.
+ This applies,
+ as well,
+ to a Cauchy horizon at past infinity:
+ the protons and electrons had to come from somewhere.
+ Where?
+ What about any photons,
+ thermal or otherwise?
+ In the middle,
+ we have a scattering matrix state,
+ but,
+ at infinity,
+ we don't know what the inputs and outputs are!
+\end_layout
+
+\begin_layout Standard
+Worse,
+ if we introduce observers into this model,
+ they are necessarily in the middle;
+ there are no plausible arguments to detach them from past or future infinity.
+ Now,
+ these observers can build a thermally isolated vacuum chamber,
+ and run experiments in that chamber;
+ on doing so,
+ all the conventional results of QM are observed.
+ This conventional theory appears to be laden with all the usual paradoxes,
+ with no particular way out.
+ This includes the problem of Wigner's friend:
+ they experience here–and–now–ness...
+\end_layout
+
+\begin_layout Standard
+So,
+ does here–and–now–ness require a sentient observer?
+ Apparently not,
+ as we cannot build any mechanical devices that go back in time,
+ to re–observe the past.
+ Since we can,
+ apparently,
+ build quantum systems that bounce backwards and forwards in time,
+ this suggests that here–and–now applies to information (only).
+ This then suggests a new question:
+ what is the simplest (QM) system that involves information,
+ and some kind of irreversible transformation to that information,
+ such that we get not only an arrow of time,
+ but also slices that can be identified with the here–and–now?
+\end_layout
+
+\begin_layout Standard
+That is an entirely different question,
+ and I've not quite formulated it in this way before.
+ Why?
+\end_layout
+
+\begin_layout Standard
+I have to run now,
+ Owen invites ...
+ but the question is:
+ where does information come from?
+ Is it the loss of unitarity?
+ Is information the same thing as a non–unitary coupling?
 \end_layout
 
 \begin_layout Section*
