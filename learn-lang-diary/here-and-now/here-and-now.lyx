@@ -4675,7 +4675,7 @@ place
  and DNA encodes information.
  But this is also a certain slight of hand.
  The DNA exists in the here–and–now,
- and it arrived her after a journey through the past.
+ and it arrived here after a journey through the past.
  I know this because I have formed memories of the past.
  But I access my memories only now;
  and no matter how fast I type,
@@ -4686,6 +4686,556 @@ place
 I'm sleepy and my eyes are slamming shut.
  Much as I'd like to continue,
  I cannot.
+\end_layout
+
+\begin_layout Subsection*
+18 Feb 2026
+\end_layout
+
+\begin_layout Standard
+After much thought,
+ I decide 
+\begin_inset Quotes eld
+\end_inset
+
+information doesn't exist
+\begin_inset Quotes erd
+\end_inset
+
+.
+ What is the case is that there are temporary arrangements of atoms that are undisputably so arranged:
+ e.g.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+the glass is full
+\begin_inset Quotes erd
+\end_inset
+
+ or 
+\begin_inset Quotes eld
+\end_inset
+
+the glass is empty
+\begin_inset Quotes erd
+\end_inset
+
+,
+ and we can map the mathematical theory of bits and bytes quite successfully to such arrangements.
+ The persistence of these arrangements over long periods of time is central to such an interpretation:
+ when a bit is stored in my computer,
+ it has to stay there.
+ Microscopically:
+ a hydrogen atom is in it's ground state,
+ or it's not,
+ and we have machinery sufficiently precise to make this determination on a case–by–case basis.
+\end_layout
+
+\begin_layout Standard
+We can measure time,
+ and ask 
+\begin_inset Quotes eld
+\end_inset
+
+how long has this hydrogen atom been in it's ground state?
+\begin_inset Quotes erd
+\end_inset
+
+ The philosophical issues arise if we ask the question 
+\begin_inset Quotes eld
+\end_inset
+
+does the past exist (for the hydrogen atom)?
+\begin_inset Quotes erd
+\end_inset
+
+ We mostly cannot go 
+\begin_inset Quotes eld
+\end_inset
+
+back into the past and cause the atom to ionize,
+ back then
+\begin_inset Quotes erd
+\end_inset
+
+.
+ But non–locality is weird.
+\end_layout
+
+\begin_layout Standard
+The problem is,
+ I guess,
+ that non–locality fucks with our conception of time.
+ If I do a non–local spin correlation measurement,
+ space–like separated at points A and B,
+ and arrange two cats,
+ such that a measurement of spin down kills a cat,
+ I will have one live cat and one dead cat guaranteed.
+ The resolution is that the measurement happens outside of 4D space–time,
+ in Hilbert space,
+ which is the 
+\begin_inset Quotes eld
+\end_inset
+
+real
+\begin_inset Quotes erd
+\end_inset
+
+ place where things 
+\begin_inset Quotes eld
+\end_inset
+
+really
+\begin_inset Quotes erd
+\end_inset
+
+ happen,
+ and that place is where 
+\begin_inset Quotes eld
+\end_inset
+
+here and now
+\begin_inset Quotes erd
+\end_inset
+
+ is actually 
+\begin_inset Quotes eld
+\end_inset
+
+located
+\begin_inset Quotes erd
+\end_inset
+
+.
+\end_layout
+
+\begin_layout Standard
+For my own sake,
+ I can push this into high relief:
+ we can do one spin measurement on Pluto,
+ the other on Earth;
+ we have simultaneous live/dead cats that are nine(?) light–hours apart.
+ At a galactic scale,
+ it could be done,
+ in principle,
+ a million light–years apart.
+ Yet both measurements happen in the same here–and–now of the Hilbert space.
+\end_layout
+
+\begin_layout Standard
+The informational issue arises with the spatial location of arrangements:
+ the glass being half–full has a specific location in 3D space,
+ as do the dead cats:
+ but they also have a 
+\begin_inset Quotes eld
+\end_inset
+
+specific location
+\begin_inset Quotes erd
+\end_inset
+
+ in Hilbert space.
+ They correspond to specific portions (specific subspaces) of a state vector.
+ And,
+ apparently,
+ it is the continuity of the mapping of this state vector onto 3+1D space–time that gives us our sense of persistence in time.
+ And of course,
+ various other periodic arrangements that allow us to measure time.
+\end_layout
+
+\begin_layout Standard
+This exposes other issues.
+ If time is relative with respect to my spatial location,
+ then is there also something else that could be called 
+\begin_inset Quotes eld
+\end_inset
+
+time
+\begin_inset Quotes erd
+\end_inset
+
+ in the Hilbert space?
+ The answer would appear to be 
+\begin_inset Quotes eld
+\end_inset
+
+yes
+\begin_inset Quotes erd
+\end_inset
+
+,
+ as everything is changing in the here–and–now,
+ and it is synchronous across the universe.
+ The word 
+\begin_inset Quotes eld
+\end_inset
+
+synchronous
+\begin_inset Quotes erd
+\end_inset
+
+ is clearly problematic,
+ but the intended meaning in this context seems clear enough:
+ its not local time,
+ its the Hilbert quantum angle.
+\end_layout
+
+\begin_layout Standard
+What's the Hilbert quantum angle?
+ So I imagine the 
+\begin_inset Quotes eld
+\end_inset
+
+wave function of the universe
+\begin_inset Quotes erd
+\end_inset
+
+ 
+\begin_inset Formula $\left|\Psi\right\rangle $
+\end_inset
+
+ which I guess is a pure state in some 
+\begin_inset Formula $U\left(N\right)\sim\mathbb{C}P^{N}$
+\end_inset
+
+ for some absurdly large 
+\begin_inset Formula $N$
+\end_inset
+
+.
+ All tangent spaces are necessarily 
+\begin_inset Quotes eld
+\end_inset
+
+orthogonal
+\begin_inset Quotes erd
+\end_inset
+
+,
+ all paths are necessarily unitary,
+ i.e.
+ of the form 
+\begin_inset Formula $U=\exp i\theta\tau$
+\end_inset
+
+ with 
+\begin_inset Formula $\theta$
+\end_inset
+
+ the scalar 
+\begin_inset Quotes eld
+\end_inset
+
+quantum angle
+\begin_inset Quotes erd
+\end_inset
+
+ and 
+\begin_inset Formula $\tau$
+\end_inset
+
+ some tangent vector.
+ This would be the textbook–y style handwaving.
+\end_layout
+
+\begin_layout Standard
+There are several issues with this glib description.
+ One is that it restores timeless determinism:
+ the future is unknowable only because of our inability to comprehend,
+ and not at some basic level.
+ The past continues to 
+\begin_inset Quotes eld
+\end_inset
+
+exist
+\begin_inset Quotes erd
+\end_inset
+
+,
+ because 
+\begin_inset Formula $\theta$
+\end_inset
+
+ can be set to any value.
+ The tangent vector 
+\begin_inset Formula $\tau$
+\end_inset
+
+ appears to be a constant (which is why 
+\begin_inset Quotes eld
+\end_inset
+
+the future is fixed
+\begin_inset Quotes erd
+\end_inset
+
+) instead of some dynamical variable itself.
+ There's no particularly convincing algebraic development from this to path integrals,
+ and then there is no particularly pleasing algebraic development from path integrals to systems in classical mechanics that exhibit chaos.
+ For example,
+ consider some Hopf bifurcation or similar in classical mechanics;
+ what's the simplest quantum envelopment of that?
+\end_layout
+
+\begin_layout Standard
+Word games are funny.
+ I used the word 
+\begin_inset Quotes eld
+\end_inset
+
+envelopment
+\begin_inset Quotes erd
+\end_inset
+
+ here,
+ because I was imaging the set of paths that are within h–bar of the classical path as a tube that surrounds the classical path,
+ and so ensheaths it.
+ The word 
+\begin_inset Quotes eld
+\end_inset
+
+envelopment
+\begin_inset Quotes erd
+\end_inset
+
+ popped into mind,
+ but that then suggests an enveloping algebra.
+ And this is indeed one way to get to quantum:
+ e.g the Moyal star.
+\end_layout
+
+\begin_layout Standard
+Well,
+ this says that some of the algebraic tools are in place.
+ So what am I actually agonizing over here?
+ Well,
+ I suppose it is that all of these tools encourage a god–like view of the universe from without,
+ but with this view comes the conception everything is fixed and oddly deterministic.
+ Worse,
+ 
+\begin_inset Formula $U\left(N\right)\sim\mathbb{C}P^{N}$
+\end_inset
+
+ feels very uniform and spherical;
+ whereas dynamical systems suggests that the actual 
+\begin_inset Quotes eld
+\end_inset
+
+shape
+\begin_inset Quotes erd
+\end_inset
+
+ of our Hilbert space is a place with some uncountable number of Alexander horns tangled into it.
+\end_layout
+
+\begin_layout Standard
+And so it is this gut intuition that I guess lead to the study of knot theory...
+ and I have to kind of give up out of exhaustion,
+ were I to probe in that direction.
+ I don't know how to decompose 
+\begin_inset Quotes eld
+\end_inset
+
+the wave function of the universe
+\begin_inset Quotes erd
+\end_inset
+
+ into some infinite product of 4-manifolds with bizarre gluings between them.
+ I mean,
+ I suppose that this is some plausible mental model of a quantum vacuum ...
+ err,
+ well,
+ no.
+ It won't work.
+ But still imagine this day–dream.
+ Start with an ordinary flat Minkowski space,
+ but then replace each tangent space by a wild 4–sphere,
+ and these glue up every–which way.
+ (I don't know,
+ off–hand,
+ how such gluing could even be done,
+ but lets imagine it could be ...) Of course,
+ that sounds very interesting,
+ but doesn't at all correspond to QFT as we know it.
+ In conventional QFT,
+ we have spinor and U(1) fields,
+ and second–quantize those with ladder operators for the SHO.
+ But this is all very linear,
+ and it all glues up very linearly,
+ so there's no obvious way to create knots in there,
+ but then the meta–question:
+ why would you even want to have knots in there?
+ The only reason knots showed up is due to Kac–Moody algebras and etc.
+ and the path blazed by Ed Witten and friends.
+ There is an entire industry there;
+ I cannot recap the adventures to be had,
+ there.
+\end_layout
+
+\begin_layout Standard
+The only other imaginary insanity I can think of would be free–floating magnetic flux tubes,
+ so each one responsible for some local Bohm–Aharonov effect,
+ but we have nothing in nature that behaves this way (i.e.
+ no experimental evidence for this.)
+\end_layout
+
+\begin_layout Standard
+The issue here is that of intellectual techniques:
+ should one cook up crazy theories that are quasi–incoherent and self–contradictory,
+ some crack pipe of crazy ideas,
+ or try to actually solve some well–posed phenomenon?
+ The meta–issue with here–and–now is that it is not well–posed.
+ The flow of water in a river appears to be timeless and choice–less,
+ yet our perceptual experience is that of only present tense in turmoil.
+ I wish to find some descriptive insight as to why there is only 
+\begin_inset Quotes eld
+\end_inset
+
+now
+\begin_inset Quotes erd
+\end_inset
+
+,
+ but all of my tools are inadequate.
+ Harrumpf.
+ 
+\end_layout
+
+\begin_layout Standard
+So let me return to an earlier thought ...
+ where does information come from?
+ If I equate information with the stability of bound quantum states (e.g.
+ 
+\begin_inset Quotes eld
+\end_inset
+
+the hydrogen atom is ionized,
+ or not
+\begin_inset Quotes erd
+\end_inset
+
+ is one bit of information) then the question is how to talk about such stability.
+ As determined earlier,
+ this hydrogen atom must necessarily be located at the origin.
+ The bound state includes the photon that was radiated (for simplicity,
+ lets assume that one photon suffices.) That photon escaped out to infinity,
+ but its on–shell,
+ so zero metric distance.
+ It does have an associated oscillatory EM field viz frequency and wavelength,
+ but it terminates at infinity.
+ This suggests that my model of a universe that contains only a single hydrogen atom should be closed and compact,
+ so that the boundary condition at infinity can be fully specified.
+ But this model disallows Minkowski space,
+ which is not closed and compact.
+ We can kind–of–ish compactify it in all the ways that the GR textbooks do it.
+ We can go farther:
+ ponder AdS with its reflective boundary conditions,
+ or dS with its causally disjoint base,
+ or take the gloves off and consider all kinds of other geometries,
+ including rotating universes (which amazingly are not ruled out observationally,
+ and have been proposed as a possible solution for the Hubble tension!
+ Imagine that!
+ Awesome!)
+\end_layout
+
+\begin_layout Standard
+So the meta–question is:
+ do I need to ponder cosmology in order to formulate a universe containing a single hydrogen atom and the 13.7 eV photon liberated in the process of binding?
+ I have some partial success without cosmology:
+ yesterday,
+ in earlier paragraphs,
+ I was able to argue that the wave function collapse that occurs to bind the electron to the proton must necessarily occur at the origin,
+ as there is no other coordinate at which this can occur,
+ and that the binding collapse necessarily happens at t=0 as the time coordinate,
+ again,
+ because there is 
+\begin_inset Quotes eld
+\end_inset
+
+no other place in time it could have happened at
+\begin_inset Quotes erd
+\end_inset
+
+,
+ viz.
+ due to time translation invariance.
+ What remains unresolved is the collapse of the photonic wave function.
+ It necessarily spread on the null light–cone.
+ Clearly,
+ 
+\begin_inset Quotes eld
+\end_inset
+
+something must happen at infinity
+\begin_inset Quotes erd
+\end_inset
+
+,
+ but what?
+ there are no electric charges,
+ carriers or conductors at infinity.
+ Do I need to create a cosmological model that is compact and closed and can absorb a photon at infinity?
+ How?
+ It seems to lead to non–sense if its not compact,
+ or is non–compactness just a more difficult case?
+\end_layout
+
+\begin_layout Standard
+Say I wanted to do this.
+ I guess I need some pseudo-Riemannian manifold;
+ I need some Clifford algebra on it,
+ so I can construct one electron on it (I will ignore the proton,
+ or rather,
+ treat it as a classical spinless point charge) quantize the electron,
+ create a U(1) bundle,
+ quantize the U(1) bundle (should it be a Kaluza–Klein geometry?
+ Would that make it easier somehow?
+ Its compact,
+ yeah?) arrange everything so that the tangent spaces are all flat Minkowski,
+ somehow keep curvature small enough that the hydrogen is effectively in flat space,
+ ...
+ and then with this set up,
+ somehow explain what it means for the photon wave function to exist.
+ Do such models have photons that 
+\begin_inset Quotes eld
+\end_inset
+
+collapse
+\begin_inset Quotes erd
+\end_inset
+
+,
+ and thus define a special direction as the null ray in the direction of collapse?
+ Or do such models disallow the collapse of the photon wave–function?
+ Does it even matter,
+ because with two electrons (two charges) then there is a way to absorb the photon.
+ What would I learn,
+ if I dashed off and created this model?
+ (This class of models?) What does one ever learn?
+ Its supposed to be a distraction,
+ its supposed to be fun,
+ and the articulation of the algebra always provides insight into 
+\begin_inset Quotes eld
+\end_inset
+
+something
+\begin_inset Quotes erd
+\end_inset
+
+,
+ even if it is not one what initially expected.
+ The articulation of such models brings them forth into the noosphere,
+ into the here and now.
+ Intellectual efforts generate or manifest the appearance of mathematical knowledge and insight into the here and now.
+\end_layout
+
+\begin_layout Standard
+Writing all this keeps making me incredibly sleepy ...
+ whatever neurotransmitter depletion it is that makes one sleepy,
+ well,
+ writing this stuff is doing this.
+ I need to nod off.
 \end_layout
 
 \begin_layout Section*
