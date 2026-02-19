@@ -12702,7 +12702,102 @@ will do anything.
 
 \begin_layout Standard
 My internet is broken,
- so I cannot sent the above email
+ so I cannot send the above email.
+\end_layout
+
+\begin_layout Subsection*
+18 Feb 2026
+\end_layout
+
+\begin_layout Standard
+Where we at?
+ I'm stalled.
+ Let me try again.
+ So one project is to use qwen3:8b as a user–interface to some technical system (viz,
+ AtomSpace contents) This seems to require storing triples:
+ (text-blob,
+ hash-of-text,
+ AtomSpace structure) The indirection is due to the inability to has the AtomSpace contents directly,
+ nor to judge similarity in any way.
+ That is,
+ qwen can hash text if and only if it has already been trained on the language of that text:
+ English,
+ or whatever.
+ If I was qwen to hash Atomese,
+ I would get random hashes.
+ Thus,
+ the pairing of text–blob and Atomese is an indirection:
+ the text explains what the Atomese 
+\begin_inset Quotes eld
+\end_inset
+
+means
+\begin_inset Quotes erd
+\end_inset
+
+.
+ Then,
+ for any query,
+ I hash the query,
+ do a cosine–similarity lookup on the hash,
+ feed the corresponding text blob to qwen,
+ and ...
+ do what with the Atomese?
+\end_layout
+
+\begin_layout Standard
+This seems naive.
+ Consider a simpler problem.
+ Say I want to talk about an electronics schematic.
+ The English text blob would say 
+\begin_inset Quotes eld
+\end_inset
+
+if the user wishes to find all of the electrical resistors in this circuit,
+ then run the following SQL query
+\begin_inset Quotes erd
+\end_inset
+
+,
+ and associated with that would be some python snippet which could run that query and return a list of results.
+ The list of resistors is turned into a text blob:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The circuit 42 contains resistor A,B,C...
+\begin_inset Quotes erd
+\end_inset
+
+ which is then fed to qwen.
+ Qwen completes the job by then wrapping this response in English verbal niceties.
+\end_layout
+
+\begin_layout Standard
+What does this accomplish?
+ Not much,
+ if the circuit is small:
+ if it fits on one printed sheet of paper,
+ the EE can just look at it.
+ If its a bit fat,
+ then the BOM can be scanned.
+ If there are several circuits,
+ and some software with some reasonable user interface can look this up:
+ mouse–menu click–n–drag.
+ A verbal interface comes into its own only when the volume of data is overwhelming,
+ and there is no pre–existing GUI for working with that data.
+ Then,
+ if the user is smart – a shape–rotator,
+ like me,
+ who knows what they want,
+ and what it will mean when it is found,
+ then qwen,
+ with this kind of query system could be an efficient verbal interface into that large dataset.
+ 
+\end_layout
+
+\begin_layout Standard
+prompts skills
 \end_layout
 
 \begin_layout Section*
