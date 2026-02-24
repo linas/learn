@@ -96,3 +96,9 @@ features of Atomese, and so the goal is to leverage this.
   tailing changing files (e.g. tailing a unix pipe) are in
   https://github.com/opencog/sensory/examples/ file-read.scm,
   file-write.scm, filesys.scm, file-tail.scm.
+
+Experiments
+-----------
+Experimental arhcitectures are being explored in the
+[agents project](https://github.com/opencog/agents). Go there for
+more specific code.
