@@ -1,6 +1,14 @@
 
 Things to read:
 
+* Modeling & Graph Grammars - Paul Merrell
+  Example-Based Procedural Modeling Using Graph Grammars
+  https://paulmerrell.org/grammar/
+  This is my new method for generating shapes that are similar to an
+  example shape.  Unlike Model Synthesis or WFC, it does not use tiles and
+  is not limited to a grid. From an example shape, a graph grammar is
+  constructed that creates locally similar shapes. The method is ...
+
 * Emergent Introspective Awareness in Large Language Models
   Jack Lindsey  jacklindsey@anthropic.com October 29th, 2025
   https://transformer-circuits.pub/2025/introspection/index.html
