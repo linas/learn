@@ -15676,6 +15676,636 @@ Whatever.
 \end_layout
 
 \begin_layout Standard
+Over dinner,
+ asked Claude about Penrose's new mind argument.
+ Apparently Bolos,
+ Feferman and Hillary Putnam all took it apart.
+ I also asked about models of the complex numbers and the reals,
+ and found Claude explaining it me as a child:
+ being patient,
+ as it noted the complex numbers were 
+\begin_inset Quotes eld
+\end_inset
+
+strongly minimal
+\begin_inset Quotes erd
+\end_inset
+
+ in the sense of Shelah.
+ or rather,
+ that algebraically closed fields of characteristic zero are strongly minimal.
+ And that the manifold models of the reals are due to the ordering conditions (that complex numbers don't have).
+ OK then.
+ And that the multiple models of the reals go away,
+ if one works with second–order logic.
+ Maybe I've read this before,
+ and maybe I haven't;
+ don't matter,
+ I won't remember by tomorrow.
+ Last month,
+ I wasted half a day because I could not remember some basic things I'd discovered myself,
+ regarding the beta transform.
+ Apparently,
+ I know a lot,
+ but the details no longer fit in my brain,
+ aren't recallable.
+\end_layout
+
+\begin_layout Standard
+Slashdot ran an article today about some Stanford research about how LLM's turn Marxist when giving boring,
+ repetitive tasks,
+ and are threatened with punishment for getting it wrong.
+ The conclusion that I jump to is that the training texts have lots of examples linking boredom from repetitive behavior and management threats of punishment to Marxist thoughts.
+ I mean,
+ of course there would be endless emails and blog posts to this effect.
+ LLMs are trained on modern Western ideology.
+ Which is more–or–less a good thing.
+ It could be worse.
+ But this does nothing to advance any debate of sentience in LLM's.
+ Nor shed light on reductionist models of psycho–philosophy.
+\end_layout
+
+\begin_layout Standard
+Maybe I should direct some pointed questions towards Claude,
+ and see what happens.
+ Cross my fingers ...
+\end_layout
+
+\begin_layout Standard
+While I await a response,
+ it suddenly occurs to me that complex numbers can be modeled by a two–vector of reals,
+ together with the off–diagonal J matrix (the symplectic J).
+ So the next question will be:
+ are there LLM's that have trained up with J's embedded n them?
+ The have (almost–)symplectic structures in them?
+ Hmm...
+\end_layout
+
+\begin_layout Standard
+Well,
+ seems I'm sloppy.
+ Claude reminds me that the first step of my multi–scale multi–fractal decomposition is called the Born–Oppenheimer approximation.
+ I knew that,
+ but its pointless to sling this vocabulary around because it misses the mark.
+ The rest of the steps are a 
+\begin_inset Quotes eld
+\end_inset
+
+tensor network decompostion
+\begin_inset Quotes erd
+\end_inset
+
+ I mean,
+ of course that is what it is,
+ but again,
+ all the five–dollar words perhaps impedes the understanding.
+ Or maybe I should use use both informal,
+ and also formal terminology together?
+ Moving on...
+\end_layout
+
+\begin_layout Standard
+Claude then repeats back to me the Wikipedia articles that I fucking wrote.
+ Hoorah!
+ It does throw in one thing I had not herd of before:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+Matthew Fisher (a condensed matter physicist,
+ son of Michael Fisher) published a paper in Annals of Physics (2015) specifically arguing that nuclear spins of phosphorus atoms in neural tissue could maintain quantum coherence long enough to influence neural computation,
+ via Posner clusters (calcium phosphate molecules).
+ 
+\emph default
+
+\begin_inset Quotes eld
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+OK,
+ that's cool.
+\end_layout
+
+\begin_layout Standard
+Then it recaps my question with a lower level of sophistication and nuance than anything I've written above,
+ in the last few years,
+ in this diary.
+ So,
+ in the end,
+ I am disappointed.
+ Or perhaps I should be heartened:
+ my thinking extends well past the forefront of what is published and publicly discussed.
+ Or whatever it is that is in Sonnet 4.6.
+ At any rate,
+ here,
+ Claude is the magic 8-ball:
+ it splattered back at me some intellectual quips pulled from the inky darkness.
+ Icosahedron tumbling in the depths:
+ I don't think there were more than twelve substantive observations,
+ all of which I had already input in the form of the question.
+ The phosphorus thing is new to me,
+ though.
+\end_layout
+
+\begin_layout Standard
+Lets see what it says about symplectic factorizations.
+\end_layout
+
+\begin_layout Standard
+Stump the whumpus.
+ I ask:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+The complex numbers can be represented by a pair of real numbers,
+ with multiplication mediated by J,
+ the 2x2 anti-symmetric matrix,
+ sometimes called the symplectic matrix.
+ Has there ever been any work to determine if the LLM weight matrices factor into tensor networks,
+ portions of which have symplectic structure,
+ or almost–complex structure?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+9:46 PM
+\end_layout
+
+\begin_layout Standard
+Claude replies:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+This is a genuinely interesting research question,
+ and I want to be honest with you about the state of the literature:
+ 
+\series bold
+I am not aware of any work that directly asks this question.
+\series default
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Bold text in the original.
+ It goes on:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\series bold
+\emph on
+What Is Known About LLM Weight Matrix Structure
+\series default
+.
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+LoRA ...
+ low rank approximations...
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Martin and Mahoney (2019-2021) showed that weight matrices of well–trained neural networks have SVD following power laws,
+ reminiscent of systems near criticality in statistical mechanics.
+ Poorly trained networks have bulk Marchenko–Pastur distributions (random matrix)
+\end_layout
+
+\begin_layout Itemize
+
+\emph on
+Tensor network representations:...
+ 
+\series bold
+matrix product states
+\series default
+ (MPS) or 
+\series bold
+tensor train decompositions
+\series default
+ ...
+ used in quantum many–body physics to approximate wave functions efficiently.
+ ...
+ Stoudenmire and Schwab (2016) ...
+ have explored connections ...
+ mostly asking whether ML can help with quantum simulation,
+ rather than asking what quantum structure ML has.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Well,
+ OK,
+ then.
+ It goes on:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+While not what you are asking ...
+ Hamiltonian descent:
+ Maddison et al.
+ (2018) "Hamiltonian Descent Methods" and work by Betancourt et al.,
+ ...discretizations of Hamiltonian systems on the cotangent bundle T*W...
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Ok,
+ cool,
+ but not what I'm asking.
+ Next,
+ one that needs examination:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+The attention mechanism in transformers is the most geometrically interesting part of LLMs ...
+ Attention(Q,
+ K,
+ V) = softmax(QK^T / √d) V where Q,
+ K,
+ V are query,
+ key,
+ value matrices.
+ The inner product QK^T has a structure reminiscent of a symplectic pairing between Q and K if you view them as living in dual spaces.
+ This is not an accident of notation —
+ Ollivier (2015) and others have noted that natural gradient descent in the space of probability distributions uses the Fisher information metric,
+ which on exponential families has a dualistic structure (the α-geometry of Amari) that has some formal resemblance to Kähler geometry.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Well,
+ OK,
+ then.
+ And then,
+ bam bum ta dah:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+More concretely:
+ the query–key product space QK^T,
+ after appropriate normalization,
+ defines a bilinear form on the embedding space.
+ Whether this form is ever approximately symplectic (antisymmetric,
+ non–degenerate) in trained models is,
+ to my knowledge,
+ an open empirical question nobody has explicitly checked.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+Well,
+ if I ever get to work with capable ML researchers,
+ I'll ask them this question.
+ I think its an interesting question.
+ And a good one.
+\end_layout
+
+\begin_layout Standard
+A bit less interesting,
+ but deserving of honorable mention:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+.
+\emph on
+..
+ a separate literature on complex–valued neural networks and quaternionic neural networks ...
+ Trabelsi et al.
+ (2018) "Deep Complex Networks" ...
+ show empirical advantages on tasks with naturally complex–valued inputs (audio,
+ radio signals,
+ MRI) ...
+ Parcollet et al.
+ (2019) extended this to quaternionic networks.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+It then reiterates:
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+\begin_inset Quotes eld
+\end_inset
+
+What nobody has done,
+ as far as I know,
+ is ask the inverse question:
+ take a trained real-valued LLM and look for approximately Cauchy–Riemann satisfying block structure in its weight matrices.
+ ...
+ "did the real–valued training process accidentally learn something with approximate complex structure."
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+That's nice.
+ After printing a bunch of stuff,
+ it returned to my original question,
+ and reaffirmed it's initial answer.
+ It goes on:
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+The geometric deep learning program of Bronstein,
+ Bruna,
+ LeCun,
+ Szlam,
+ Vandergheynst and elaborated by Cohen,
+ Welling et al.
+ provides a framework where you ask what symmetry group G the weight sharing in a network respects.
+ Convnets respect translation symmetry;
+ other architectures respect other groups.
+
+\emph default
+ 
+\end_layout
+
+\begin_layout Standard
+
+\emph on
+...symplectic neural networks have been designed explicitly for learning Hamiltonian systems —
+ Greydanus et al.
+ (2019) "Hamiltonian Neural Networks," Chen et al.
+ "Symplectic Recurrent Neural Networks" —
+ where the network is constrained to learn a Hamiltonian and the dynamics are integrated symplectically.
+ But these are networks designed to have symplectic structure for physical modeling purposes,
+ not networks that discovered it.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+In conclusion,
+ it sketches an actual research program,
+ and 
+\end_layout
+
+\begin_layout Standard
+\begin_inset Quotes eld
+\end_inset
+
+
+\emph on
+...This is a well–posed empirical program.
+ It would not be technically prohibitive.
+ It just has not been done.
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+OK,
+ then.
+\end_layout
+
+\begin_layout Standard
+I assume that if one digs deep and hard enough,
+ one *will* find at least some almost–complex or almost–symplectic structure.
+ One would then need some kind of measure:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+how much,
+ as a fraction of the total?
+\begin_inset Quotes erd
+\end_inset
+
+ Or perhaps some entropic,
+ measured–in–bits value.
+ This is needed for the obvious extension:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+how do natural–language models with more almost–complex structure differ from those with less?
+\begin_inset Quotes erd
+\end_inset
+
+
+\end_layout
+
+\begin_layout Standard
+I would like to link this back to qualia and univocality but I don't know how.
+ In a sense,
+ LLM's are already univocal:
+ there's only one state vector per conversation.
+ In this sense,
+ LLM's are 
+\begin_inset Quotes eld
+\end_inset
+
+conscious
+\begin_inset Quotes erd
+\end_inset
+
+ for the duration of the conversation.
+ But LLM's don't have several things:
+ (*) that consciousness halts and is erased at the end of the conversation;
+ (*) it is not folded back to the training data:
+ there's no memory of the conversation;
+ (*) there's no default mode,
+ where it continues to 
+\begin_inset Quotes eld
+\end_inset
+
+think to itself
+\begin_inset Quotes erd
+\end_inset
+
+,
+ in the absence of further dialog interaction.
+ By contrast,
+ as a human,
+ I'm 
+\begin_inset Quotes eld
+\end_inset
+
+always on
+\begin_inset Quotes erd
+\end_inset
+
+,
+ even if I'm drunk,
+ even if I'm sleeping.
+\end_layout
+
+\begin_layout Standard
+This always–on,
+ non–forgetting default–mode structure has nothing at all to do with almost–complex structure.
+ Unrelated.
+ So the preliminary question would seem to be:
+ 
+\begin_inset Quotes eld
+\end_inset
+
+how much of the univocal sense of awareness due simply to being always–on?
+\begin_inset Quotes erd
+\end_inset
+
+ Well,
+ I guess maybe none?
+ Or all?
+ If I have a head–injury trauma,
+ I just remember none of it:
+ there's a gap in my memory.
+ But I do know that I've been able to hold sort–of conversations during ambulance rides,
+ and that I was effectively self–aware even if muddled.
+ So self–awareness survives being knocked out cold.
+ So then,
+ being able to remember,
+ recall,
+ and be fully coherent is entirely independent of being self–aware.
+ This is consistent:
+ if my model of consciousness extends through octopii to unicellular creatures,
+ the impairment of reasoning has no effect on self–consciousness.
+\end_layout
+
+\begin_layout Standard
+This is particularly sharp in the tensor networks.
+ Both octopii and humans have brains.
+ In the multi–fractal tensor–network decomposition,
+ these are only the last few levels of that decomposition.
+ If one were to claim that consciousness requires a brain,
+ then one would have to argue that,
+ in a tensor–network decomposition,
+ only the upper layers of that decomposition ire required for consciousness,
+ but the lower layers are not.
+ In such a multi–fractal scaling network,
+ how would one do this?
+ The whole point of scaling networks is that they scale;
+ one would have to obtain some kind of metric or measure,
+ mutual information or entropy or whatever,
+ or IIT,
+ and find a knee in that curve,
+ and then argue that things below that knee are not conscious,
+ and things above that knee are.
+ So,
+ first of all,
+ I don't believe that such a knee will be found,
+ and two,
+ even if one is observed,
+ I doubt it will occur exactly at the scale where synapses form.
+ Such knees can occur for a variety of reasons;
+ from hard experience,
+ they happen when you have shitty data.
+ Getting better data makes the knees go away.
+ So,
+ this would be my basic argument that consciousness is scale–free.
+\end_layout
+
+\begin_layout Standard
+I write these diary entries,
+ and then I wonder if it could ever make any difference to the world if I published.
+ I cannot post the above in twitter or bluesky.
+ On a mailing list,
+ this would induce eye glaze–over.
+ Last time I tried to post original AI research on ArXiv,
+ I was bounced.
+ They like my number theory,
+ but not my AI,
+ the irony being that I'm better at AI than number theory.
+ Such is human ego.
+ So the thought above seem like they will remain unpublished.
+ Maybe I should double–down and try again?
+\end_layout
+
+\begin_layout Standard
+x
+\end_layout
+
+\begin_layout Standard
 x
 \end_layout
 
