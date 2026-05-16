@@ -16302,6 +16302,152 @@ I write these diary entries,
 \end_layout
 
 \begin_layout Standard
+Wikipedia,
+ Corpus callosum:
+ 
+\emph on
+
+\begin_inset Quotes eld
+\end_inset
+
+A 2005 study on the sizes and structures of the corpus callosum in transgender people found it to be structurally more in line with their declared gender than their assigned sex.
+ [21]
+\emph default
+
+\begin_inset Quotes erd
+\end_inset
+
+ Well,that makes my day.
+ Biology.
+\end_layout
+
+\begin_layout Standard
+So I've got two things:
+ consciousness is (almost surely) scale–free,
+ which is a fancy way of saying 
+\begin_inset Quotes eld
+\end_inset
+
+panpsychism
+\begin_inset Quotes erd
+\end_inset
+
+,
+ and consciousness might depend on the appearance of almost–complex structure,
+ maybe or maybe not.
+ I've got nothing more than this,
+ other than the usual suspects:
+ it has to be near a second–order phase transition,
+ both temporally and spatially.
+\end_layout
+
+\begin_layout Standard
+This last sentence is worth expanding on.
+ The scale–free tensor network decomposition implies that it is spatially,
+ structurally near a second–order phase transition.
+ Having a scale–free decomposition is symptomatic of such a transition.
+ I should memorize some math formulas that I can wave around to legitimize this claim.
+ That the temporal structure,
+ the 
+\begin_inset Quotes eld
+\end_inset
+
+firing patterns
+\begin_inset Quotes erd
+\end_inset
+
+ would also show avalanching structure would then be relative to the spatial structure.
+ That is,
+ temporal avalanches are 
+\begin_inset Quotes eld
+\end_inset
+
+dual
+\begin_inset Quotes erd
+\end_inset
+
+ to spatial scaling.
+ So there's some kind of spatio–temporal duality.
+ I assume this is well–known and has Wikipedia articles on it,
+ but I don't know what that is.
+ So another question for Claude.
+\end_layout
+
+\begin_layout Standard
+The other thing that I've blurbled about is the isolationist property or the ultra–metric property:
+ that the operations of secret agencies can be kept secret,
+ forever,
+ dspite being causally connected to the rest of the world.
+ Likewise,
+ my thoughts are secret,
+ up to what I care to share.
+ Likewise,
+ my butt is causally isolated from the chair it rests on,
+ up to the minimal interaction needed to hold it up,
+ but nothing more than that.
+ The chair is blissfully unaware of my read blood cells,
+ and my red blood cells are mostly unaware of the chair.
+ 
+\end_layout
+
+\begin_layout Standard
+So is this isolation property a side effect of being able to do a tensor network factorization?
+ Or is it something more?
+ A prokaryotic cell explicitly has a cell wall to keep insides separated from outsides.
+ Failure to have this wall would prevent having tensor factorization along this axis,
+ so the wall is a pre–requisite for this factorization.
+\end_layout
+
+\begin_layout Standard
+Bit in robots,
+ we have a similar boundary:
+ the robot maintains a world–model of what is 
+\begin_inset Quotes eld
+\end_inset
+
+out there
+\begin_inset Quotes erd
+\end_inset
+
+;
+ that world–model is a small,
+ simplified representation of the world (and of itself).
+ This world model is infrequently updated.
+ This world model is dense,
+ having a large IIT Phi,
+ because it needs to be an accurate model of the external world.
+ However,
+ once formed,
+ it is effectively dettached from the external world:
+ either can change,
+ (the inside or the outside) without forcing the other to change (except in minimal or catastrophic ways:
+ a world model in an active agent can change the external world,
+ of course.
+ And the external world can drop a meteor,
+ or a city bus,
+ on the agent.) That is,
+ the robot inside can be more–or–less causally disconnected from the robot outside.
+ Just as in the example of the prokaryote,
+ this allows a tensor decomposition between the robot and the external world.
+\end_layout
+
+\begin_layout Standard
+The deal here is that cell walls are temporally stable.
+ They are designed (ok,
+ evolved) to be temporally stable.
+ Biomolecules are also temporally stable.
+ Hmm.
+ I guess covert ops spy agencies are also temporally stable,
+ with well-defined insides and outsides.
+ Are there examples of causal disconnects that are NOT temporally stable?
+ And if there were any,
+ would they allow for a tensor decomposition,
+ or would this be manifestly blocked due to their instability?
+ It seems to me that the temporal stability of a boundary is a pre–requisite for factoring along that boundary.
+ I see no other way.
+\end_layout
+
+\begin_layout Standard
 x
 \end_layout
 
